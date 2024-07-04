@@ -13,6 +13,7 @@ A big thank you to keyemail, who originally crafted this guide within VinegarHQ'
 
 # Intro
 ***
+
 This guide details the process of running Roblox within a VM using KVM/QEMU through Libvirt. While the longevity of this setup remains uncertain, we're confident it won't be dead by tomorrow.
 
 This guide is intended for users on Debian/Ubuntu, Arch, or any of their derivatives, so long as they are using systemd.
@@ -21,6 +22,7 @@ If this guide appears overly complex, you may consider exploring an [alternative
 
 # Prerequisites
 ***
+
 * A secondary GPU is required for GPU passthrough. For configuring single GPU passthrough, utilize [this guide](https://github.com/ilayna/Single-GPU-passthrough-amd-nvidia/) in conjunction with ours.
 * Hyper-V is essential in this guide as it enables you to play with the anti-tamper system in effect.
 * A foundational understanding of Linux
@@ -137,6 +139,7 @@ Now, execute `$ mkinitcpio -P` to apply it across all your kernels and then rebo
 
 # Setting up Virtual Machine Manager.
 ***
+
 Execute Virtual Machine Manager, and customize it to your preferences. **However,** before finalizing the setup, ensure to select "Customize Installation before Install." In the Overall tab, confirm that your chipset is Q35 and your firmware is UEFI (with Secure Boot for Windows 11). Proceed with the installation process as usual.
 
 After completing the installation, boot up the VM and access the configuration area once more. Be prepared to edit some XML files, so ensure that XML editing is enabled by navigating to Edit -> Preferences -> Enable XML Editing.
@@ -226,6 +229,7 @@ Example:
 
 # Conclusion
 ***
+
 If you have followed all the steps correctly, you should now be within a Windows VM, ready to download and enjoy playing Roblox!
 
 Depending on your preferences, you can utilize a playbook to optimize Windows, providing a significant performance enhancement. However, this does strip UAC and Windows Defender, so proceed with caution if that is of concern to you.
