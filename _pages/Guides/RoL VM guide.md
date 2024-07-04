@@ -119,7 +119,7 @@ IOMMU Group 10:
 IOMMU Group 13:
     06:00.0 VGA compatible controller: NVIDIA Corporation GM204 [GeForce GTX 970] [10de:13c2] (rev a1)
     06:00.1 Audio device: NVIDIA Corporation GM204 High Definition Audio Controller [10de:0fbb] (rev a1)
-    ```
+```
 
 Observe how group 13 exclusively contains the graphics cards! It is acceptable to have a PCIe Express line in the group, but nothing else should be present. Additionally, remember to record the IDs enclosed in brackets (e.g., [10de:0fbb] and [10de:13c2]). Both of these IDs will be required later on, so ensure to save them!
 
