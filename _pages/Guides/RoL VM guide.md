@@ -10,7 +10,7 @@ bookmark: true
 ---
 
 # Intro
-
+***
 This guide details the process of running Roblox within a VM using KVM/QEMU through Libvirt. While the longevity of this setup remains uncertain, we're confident it won't be dead by tomorrow.
 
 This guide is intended for users on Debian/Ubuntu, Arch, or any of their derivatives, so long as they are using systemd.
@@ -19,27 +19,27 @@ If this guide appears overly complex, you may consider exploring an [alternative
 
 A big thank you to keyemail, who originally crafted this guide within our Discord server and has assisted numerous people at VinegarHQ. They're awesome!
 
-## Prerequisites
+# Prerequisites
 ***
 * A secondary GPU is required for GPU passthrough. For configuring single GPU passthrough, utilize [this guide](https://github.com/ilayna/Single-GPU-passthrough-amd-nvidia/) in conjunction with ours.
 * Hyper-V is essential in this guide as it enables you to play with the anti-tamper system in effect.
 * A foundational understanding of Linux
 
 ## BIOS Configuration
-***
+
 
 1. Ensure that Vt-d (Intel) or AMD-Vi (AMD) is enabled in the BIOS menu.
 1. Verify if Virtualization is enabled in your BIOS settings.
 
-### Enabling IOMMU groups for Intel
+## Enabling IOMMU groups for Intel
 (AMD Users dont have to worry about this if its enabled on the BIOS)
 
 Add `intel_iommu=on` to the kernel parameters and ensure that `iommu=pt` is included as well (in Grub, systemdboot, etc.). Following this, reboot.
 
-## Installing QEMU/KVM with Libvirt
+# Installing QEMU/KVM with Libvirt
 ***
 
-### Arch
+## Arch
 
 
 ```
@@ -52,7 +52,7 @@ $ virsh net-start default
 
 Launch the Virtual Machine Manager and check if it boots successfully. It should start up; if not, there has been an issue.
 
-### Debian/Ubuntu
+## Debian/Ubuntu
 
 This guide assumes that you have sudo configured for both your system and your current user.
 
@@ -63,10 +63,10 @@ $ sudo apt install qemu qemu-kvm qemu-systems qemu-utils libvirt-clients libvirt
 
 Launch the Virtual Machine Manager and check if it boots successfully. It should start up; if not, there has been an issue.
 
-## Setting up secondary GPU passthrough with OVMF
+# Setting up secondary GPU passthrough with OVMF
 ***
 
-### Verifying IOMMU groups
+## Verifying IOMMU groups
 
 To confirm its enabled, use `$ dmesg | grep -i -e DMAR -e IOMMU`. The output should resemble the following.
 
@@ -136,7 +136,7 @@ And insert the ID tags you saved earlier using this command:
 
 Now, execute `$ mkinitcpio -P` to apply it across all your kernels and then reboot.
 
-## Setting up Virtual Machine Manager.
+# Setting up Virtual Machine Manager.
 ***
 Execute Virtual Machine Manager, and customize it to your preferences. **However,** before finalizing the setup, ensure to select "Customize Installation before Install." In the Overall tab, confirm that your chipset is Q35 and your firmware is UEFI (with Secure Boot for Windows 11). Proceed with the installation process as usual.
 
@@ -220,7 +220,7 @@ Example:
 </cpu>
 ```
 
-## Conclusion
+# Conclusion
 ***
 If you have followed all the steps correctly, you should now be within a Windows VM, ready to download and enjoy playing Roblox!
 
