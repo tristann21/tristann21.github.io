@@ -191,7 +191,7 @@ In your XML file, within the `<features>` section all the way down to `</feature
     <smm state="on"/>
     <ioapic driver="kvm"/>
   </features>
-  ```
+```
 
   This is one part of the step; next, navigate to your `<cpu>` tag, which should be located directly below `<features>`, and ensure that these two lines are included.
 
