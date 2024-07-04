@@ -29,12 +29,12 @@ If this guide appears overly complex, you may consider exploring an [alternative
 1. Ensure that Vt-d (Intel) or AMD-Vi (AMD) is enabled in the BIOS menu.
 1. Verify if Virtualization is enabled in your BIOS settings.
 
-## Enabling IOMMU groups for Intel
+## Enabling IOMMU Groups For Intel
 (AMD Users dont have to worry about this if its enabled on the BIOS)
 
 Add `intel_iommu=on` to the kernel parameters and ensure that `iommu=pt` is included as well (in Grub, systemdboot, etc.). Following this, reboot.
 
-# Installing QEMU/KVM with Libvirt
+# Installing QEMU/KVM With Libvirt
 ***
 ## Arch
 
@@ -59,7 +59,7 @@ $ sudo apt install qemu qemu-kvm qemu-systems qemu-utils libvirt-clients libvirt
 
 Launch the Virtual Machine Manager and check if it boots successfully. It should start up; if not, there has been an issue.
 
-# Setting up secondary GPU passthrough with OVMF
+# Setting Up Secondary GPU Passthrough With OVMF
 ***
 ## Verifying IOMMU groups
 
@@ -114,7 +114,7 @@ IOMMU Group 13:
     06:00.1 Audio device: NVIDIA Corporation GM204 High Definition Audio Controller [10de:0fbb] (rev a1)
 ```
 
-Observe how group 13 exclusively contains the graphics cards! It is acceptable to have a PCIe Express line in the group, but nothing else should be present. Additionally, remember to record the IDs enclosed in brackets (e.g., [10de:0fbb] and [10de:13c2]). Both of these IDs will be required later on, so ensure to save them!
+Observe how group 13 exclusively contains the graphics cards. It is acceptable to have a PCIe Express line in the group, but nothing else should be present. Additionally, remember to record the IDs enclosed in brackets (e.g., [10de:0fbb] and [10de:13c2]). Both of these IDs will be required later on, so ensure to save them!
 
 Next, modify your mkinitcpio and confirm that these are in `MODULES`:
 `MODULES=(... vfio_pci vfio vfio_iommu_type1 ...)`
@@ -129,10 +129,10 @@ And insert the ID tags you saved earlier using this command:
 
 Now, execute `$ mkinitcpio -P` to apply it across all your kernels and then reboot.
 
-# Setting up Virtual Machine Manager.
+# Setting Up Virtual Machine Manager.
 ***
 
-Execute Virtual Machine Manager, and customize it to your preferences. **However,** before finalizing the setup, ensure to select "Customize Installation before Install." In the Overall tab, confirm that your chipset is Q35 and your firmware is UEFI (with Secure Boot for Windows 11). Proceed with the installation process as usual.
+Execute Virtual Machine Manager, and customize it to your preferences. **However,** before finalizing the setup, ensure to select "Customize Installation before Install." In the Overall tab, confirm that your chipset is Q35 and your firmware is UEFI (with Secure Boot for Windows 11). You can now install Windows as usual.
 
 After completing the installation, boot up the VM and access the configuration area once more. Be prepared to edit some XML files, so ensure that XML editing is enabled by navigating to Edit -> Preferences -> Enable XML Editing.
 
@@ -224,7 +224,7 @@ Example:
 
 If you have followed all the steps correctly, you should now be within a Windows VM, ready to download and enjoy playing Roblox!
 
-Depending on your preferences, you can utilize a playbook to optimize Windows, providing a significant performance enhancement. However, this does strip UAC and Windows Defender, so proceed with caution if that is of concern to you.
+Depending on your preferences, you can utilize a [playbook](https://atlasos.net/) to optimize Windows, providing a significant performance enhancement. However, this does strip UAC and Windows Defender, so proceed with caution if that is of concern to you.
 
 For a simpler approach, you can try [Azurite Optimizer,](https://tweakcentral.net/downloads) which can enhance the speed of your Windows installation slightly.
 
