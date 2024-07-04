@@ -8,11 +8,10 @@ email: personal@twitom.anonaddy.com
 github_username: tristann21
 
 # External API
-giscus_repo:
-giscus_repoId:
-giscus_category:
-giscus_categoryId:
-goatcounter_code:
+giscus_repo: "tristann21/tristann21.github.io"
+giscus_repoId: "R_kgDOMRvghQ"
+giscus_category: "Q&A"
+giscus_categoryId: "DIC_kwDOMRvghc4Cgj_k"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # #
 #                                                 #
