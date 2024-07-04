@@ -9,6 +9,8 @@ thumbnail: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.xbox
 bookmark: true
 ---
 
+A big thank you to keyemail, who originally crafted this guide within VinegarHQ's Discord server and has assisted numerous people over there. They're awesome!
+
 # Intro
 ***
 This guide details the process of running Roblox within a VM using KVM/QEMU through Libvirt. While the longevity of this setup remains uncertain, we're confident it won't be dead by tomorrow.
@@ -16,8 +18,6 @@ This guide details the process of running Roblox within a VM using KVM/QEMU thro
 This guide is intended for users on Debian/Ubuntu, Arch, or any of their derivatives, so long as they are using systemd.
 
 If this guide appears overly complex, you may consider exploring an [alternative guide](https://ios7.xyz/rol-with-waydroid-guide-2/) that explains how to set up Roblox in an Android emulator using Waydroid.
-
-A big thank you to keyemail, who originally crafted this guide within our Discord server and has assisted numerous people at VinegarHQ. They're awesome!
 
 # Prerequisites
 ***
