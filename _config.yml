@@ -1,5 +1,5 @@
 title: tristann21.github.io
-description: "neat stuff to spark conversation & ideas"
+description: "neat stuff I make to create conversation & ideas"
 logo_img: "/assets/img/favicon.webp"
 profile_img: "/assets/img/profile.webp"
 
@@ -13,11 +13,6 @@ giscus_repoId:
 giscus_category:
 giscus_categoryId:
 goatcounter_code:
-google_analytics:
-
-# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
-# Otherwise, set its value as "/<repo-name>". ex) baseurl: /myblog
-baseurl:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # #
 #                                                 #
@@ -32,7 +27,9 @@ baseurl:
 # If you want to deploy Git Page, but choosing the second Installation method (described in README.md)
 # rather than fork, then replace the below line with `remote_theme: byanko55/jekyll-theme-satellite`.
 # Otherwise, DO NOT change it.
-theme: jekyll-theme-satellite
+
+# Build settings
+remote_theme: byanko55/jekyll-theme-satellite
 
 exclude:
   - _posts

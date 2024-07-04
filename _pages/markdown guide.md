@@ -5,7 +5,7 @@ tags:
     - markdown
     - writing format
 date: "2023-09-05"
-thumbnail: "/assets/img/thumbnail/sample.png"
+thumbnail: "https://i.ibb.co/MRzw6T9/sample.webp"
 bookmark: true
 ---
 
