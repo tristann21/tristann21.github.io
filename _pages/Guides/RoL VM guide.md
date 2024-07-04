@@ -122,9 +122,8 @@ IOMMU Group 13:
 Observe how group 13 exclusively contains the graphics cards! It is acceptable to have a PCIe Express line in the group, but nothing else should be present. Additionally, remember to record the IDs enclosed in brackets (e.g., [10de:0fbb] and [10de:13c2]). Both of these IDs will be required later on, so ensure to save them!
 
 Next, modify your mkinitcpio and confirm that these are in `MODULES`:
-```
-MODULES=(... vfio_pci vfio vfio_iommu_type1 ...)
-```
+
+`MODULES=(... vfio_pci vfio vfio_iommu_type1 ...)`
 
 If you have an Nvidia card, ensure that these are placed in FRONT to prevent potential errors.
 
@@ -145,6 +144,7 @@ After completing the installation, boot up the VM and access the configuration a
 For some Nvidia users, ensure to add BOTH PCIe devices (Nvidia Card and Nvidia Audio) by including the first PCIe numbers along with the card name in brackets.
 
 Next, remove the spice graphics by setting the `Video` module to `None`. Delete the sound card (right-click), eliminate the USB redirects, and ensure that the `<audio>` tag at the bottom of the XML file specifies:
+
 ```
 <audio id="1" type="none"/>
 ```
@@ -154,6 +154,7 @@ You should be able to remove `Display Spice`, followed by `Video`.
 Here is where the section on "Getting the anticheat to work with the VM" comes into play. We will configure Hyper-V (Nested Virtualization) to deceive the anti-tamper tool, rendering it unaware that we are operating within a virtual machine.
 
 In your XML file, within the `<features>` section all the way down to `</features>`, insert the following:
+
 ```
 <features>
     <acpi/>
@@ -191,12 +192,13 @@ In your XML file, within the `<features>` section all the way down to `</feature
 
   This is one part of the step; next, navigate to your `<cpu>` tag, which should be located directly below `<features>`, and ensure that these two lines are included.
 
-  ```
+```
   <feature policy="require" name="hypervisor"/>
 <feature policy="require" name="vmx"/>
 ```
 
 For example, it should appear as follows:
+
 ```
 <cpu mode="custom" match="exact" check="partial">
     <topology sockets="1" dies="1" cores="5" threads="1"/>
@@ -206,11 +208,13 @@ For example, it should appear as follows:
 ```
 
 If for any reason, your VM is stuck in a boot loop, consider adding this:
+
 ```
 <model fallback="allow">Skylake-Client-noTSX-IBRS</model>
 ```
 
 Example:
+
 ```
 <cpu mode="custom" match="exact" check="partial">
     <model fallback="allow">Skylake-Client-noTSX-IBRS</model>
