@@ -13,7 +13,6 @@ A big thank you to keyemail, who originally crafted this guide within VinegarHQ'
 
 # Intro
 ***
-
 This guide details the process of running Roblox within a VM using KVM/QEMU through Libvirt. While the longevity of this setup remains uncertain, we're confident it won't be dead by tomorrow.
 
 This guide is intended for users on Debian/Ubuntu, Arch, or any of their derivatives, so long as they are using systemd.
@@ -22,27 +21,22 @@ If this guide appears overly complex, you may consider exploring an [alternative
 
 # Prerequisites
 ***
-
 * A secondary GPU is required for GPU passthrough. For configuring single GPU passthrough, utilize [this guide](https://github.com/ilayna/Single-GPU-passthrough-amd-nvidia/) in conjunction with ours.
 * Hyper-V is essential in this guide as it enables you to play with the anti-tamper system in effect.
 * A foundational understanding of Linux
 
-### BIOS Configuration
-
-
+## BIOS Configuration
 1. Ensure that Vt-d (Intel) or AMD-Vi (AMD) is enabled in the BIOS menu.
 1. Verify if Virtualization is enabled in your BIOS settings.
 
-### Enabling IOMMU groups for Intel
+## Enabling IOMMU groups for Intel
 (AMD Users dont have to worry about this if its enabled on the BIOS)
 
 Add `intel_iommu=on` to the kernel parameters and ensure that `iommu=pt` is included as well (in Grub, systemdboot, etc.). Following this, reboot.
 
 # Installing QEMU/KVM with Libvirt
 ***
-
-### Arch
-
+## Arch
 
 ```
 $ pacman -S qemu libvirt edk2-ovmf virt-manager ebtables dnsmasq
@@ -54,7 +48,7 @@ $ virsh net-start default
 
 Launch the Virtual Machine Manager and check if it boots successfully. It should start up; if not, there has been an issue.
 
-### Debian/Ubuntu
+## Debian/Ubuntu
 
 This guide assumes that you have sudo configured for both your system and your current user.
 
@@ -67,8 +61,7 @@ Launch the Virtual Machine Manager and check if it boots successfully. It should
 
 # Setting up secondary GPU passthrough with OVMF
 ***
-
-### Verifying IOMMU groups
+## Verifying IOMMU groups
 
 To confirm its enabled, use `$ dmesg | grep -i -e DMAR -e IOMMU`. The output should resemble the following.
 
@@ -124,7 +117,6 @@ IOMMU Group 13:
 Observe how group 13 exclusively contains the graphics cards! It is acceptable to have a PCIe Express line in the group, but nothing else should be present. Additionally, remember to record the IDs enclosed in brackets (e.g., [10de:0fbb] and [10de:13c2]). Both of these IDs will be required later on, so ensure to save them!
 
 Next, modify your mkinitcpio and confirm that these are in `MODULES`:
-
 `MODULES=(... vfio_pci vfio vfio_iommu_type1 ...)`
 
 If you have an Nvidia card, ensure that these are placed in FRONT to prevent potential errors.
@@ -193,7 +185,7 @@ In your XML file, within the `<features>` section all the way down to `</feature
   </features>
 ```
 
-  This is one part of the step; next, navigate to your `<cpu>` tag, which should be located directly below `<features>`, and ensure that these two lines are included.
+This is one part of the step; next, navigate to your `<cpu>` tag, which should be located directly below `<features>`, and ensure that these two lines are included.
 
 ```
   <feature policy="require" name="hypervisor"/>
