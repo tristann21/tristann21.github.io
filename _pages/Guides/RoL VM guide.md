@@ -25,13 +25,13 @@ A big thank you to keyemail, who originally crafted this guide within our Discor
 * Hyper-V is essential in this guide as it enables you to play with the anti-tamper system in effect.
 * A foundational understanding of Linux
 
-## BIOS Configuration
+### BIOS Configuration
 
 
 1. Ensure that Vt-d (Intel) or AMD-Vi (AMD) is enabled in the BIOS menu.
 1. Verify if Virtualization is enabled in your BIOS settings.
 
-## Enabling IOMMU groups for Intel
+### Enabling IOMMU groups for Intel
 (AMD Users dont have to worry about this if its enabled on the BIOS)
 
 Add `intel_iommu=on` to the kernel parameters and ensure that `iommu=pt` is included as well (in Grub, systemdboot, etc.). Following this, reboot.
@@ -39,7 +39,7 @@ Add `intel_iommu=on` to the kernel parameters and ensure that `iommu=pt` is incl
 # Installing QEMU/KVM with Libvirt
 ***
 
-## Arch
+### Arch
 
 
 ```
@@ -52,7 +52,7 @@ $ virsh net-start default
 
 Launch the Virtual Machine Manager and check if it boots successfully. It should start up; if not, there has been an issue.
 
-## Debian/Ubuntu
+### Debian/Ubuntu
 
 This guide assumes that you have sudo configured for both your system and your current user.
 
@@ -66,7 +66,7 @@ Launch the Virtual Machine Manager and check if it boots successfully. It should
 # Setting up secondary GPU passthrough with OVMF
 ***
 
-## Verifying IOMMU groups
+### Verifying IOMMU groups
 
 To confirm its enabled, use `$ dmesg | grep -i -e DMAR -e IOMMU`. The output should resemble the following.
 
