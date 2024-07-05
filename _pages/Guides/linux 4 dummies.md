@@ -169,7 +169,7 @@ allowfullscreen></iframe>
 1. You must make sure you have nothing important on the thumb drive, as it will be reformatted to be a bootable Linux drive. (You can revert it back later) First, you need a thumb drive that doesn't have any important files on them
 1. If you have anything important on your computer that you don't want to lose, back them up ***before*** installing Linux; As installing Linux will reformat your computer's drive as well.
 
-## Step one: Making a Bootable Thumb Drive
+## Making a Bootable Thumb Drive
 
 <iframe width="560" height="315"
 src="https://www.youtube-nocookie.com/embed/GvI0oyTsuxI"
