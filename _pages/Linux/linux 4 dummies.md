@@ -1,1 +1,0 @@
-/home/tristan/Documents/GitHub/tristann21.github.io/_pages/Guides/linux 4 dummies.md
