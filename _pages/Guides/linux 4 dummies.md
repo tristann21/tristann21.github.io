@@ -204,7 +204,7 @@ Now that you have figured out which key you need to press in order to access the
 
 It'll look something like this;
 
-1[](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fdellwindowsreinstallationguide.com%2Fwp-content%2Fuploads%2F2016%2F07%2Fboot-menu-one-time-usb2.png%3Fssl%3D1&f=1&nofb=1&ipt=3791dfacf393fbe0cbdaed1835e3d5097d9fd047f8f6ec1e4375a7ecaef12e34&ipo=images)
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fdellwindowsreinstallationguide.com%2Fwp-content%2Fuploads%2F2016%2F07%2Fboot-menu-one-time-usb2.png%3Fssl%3D1&f=1&nofb=1&ipt=3791dfacf393fbe0cbdaed1835e3d5097d9fd047f8f6ec1e4375a7ecaef12e34&ipo=images)
 
 It will either be named what your thumb drive is named, e.g., sandisk. Or, it will be named whatever Linux distribution you formatted onto it.
 
