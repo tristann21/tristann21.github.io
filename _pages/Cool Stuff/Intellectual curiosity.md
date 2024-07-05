@@ -26,7 +26,7 @@ allowfullscreen></iframe>
 
 He continues:
 
-"My approach, was to ask a lot of questions, particularly of the kitchen staff. I wanted to understand what changes were necessary in the back of the house for this restaurant concept to not only be executable but also scalable. The goal was to be able to add hundreds of these restaurants every year."
+"My approach, was to ask a lot of questions, particularly of the kitchen staff. I wanted to understand what changes were necessary in the back of the house for this restaurant concept to not only be executable, but also scalable. The goal was to be able to add hundreds of these restaurants every year."
 
 "The results far exceeded our projections. The concept has been rolling out successfully ever since, and I firmly believe that the driving force behind this success, is this concept of intellectual curiosity. Constantly asking questions, figuring out what is the problem, and how do you solve for it moving forward."
 
