@@ -135,7 +135,7 @@ Sadly, even though Linux can run games better than on Windows, companies who imp
 ## Best for The Tinkerers
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.opensourcefeed.org%2Fassets%2Fimages%2Fpreview%2Fendeavouros-preview.jpg&f=1&nofb=1&ipt=78666aba5bd4ded4a782fe16a7a84dffec2e424480ca4ddc9ab01311500524f6&ipo=images)
-EndeavourOS is thee distribution you'd want to go for if you want true freedom, and to customize anything and everything *exactly* how you want it.
+[EndeavourOS](https://endeavouros.com/) is thee distribution you'd want to go for if you want true freedom, and to customize anything and everything *exactly* how you want it.
 
 EndeavourOS is based off of Arch, and gives you complete freedom to do whatever you want on your system. **There are no guardrails.**
 
@@ -182,15 +182,15 @@ allowfullscreen></iframe>
 1. Plugin your thumb drive
 1. Launch Rufus
 1. Select the thumb drive you wish to format Linux onto
-![](/assets/img/thumbnail/rufus1)
+![](/assets/img/thumbnail/rufus1.png)
 1. Press "Select" in Rufus to open file manager
-![](/assets/img/thumbnail/rufus2)
+![](/assets/img/thumbnail/rufus2.png)
 1. Click on the ISO file, then press "Open"
-![](/assets/img/thumbnail/rufus3)
+![](/assets/img/thumbnail/rufus3.png)
 1. Click on "Start"
-![](/assets/img/thumbnail/rufus4)
+![](/assets/img/thumbnail/rufus4.png)
 1. Ensure "Write in ISO mode" is selected, and then click "OK"
-![](/assets/img/thumbnail/rufus5)
+![](/assets/img/thumbnail/rufus5.png)
 
 Now Windows *might* come up and saying it can't read your thumb drive, or that it's corrupted; **Do not press "OK"** Just close out of the pop up. That's just Windows being stupid and trying to get rid of your Linux!
 
