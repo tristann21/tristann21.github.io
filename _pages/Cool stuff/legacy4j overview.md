@@ -28,7 +28,7 @@ And made a modpack which builds ontop of Legacy4Java, providing one of the best 
 [https://modrinth.com/modpack/legacy-minecraft](https://modrinth.com/modpack/legacy-minecraft)
 
 ## Classic Xbox 360 Skins!!
-You can download an archive for all of them [here!](https://cloud.disroot.org/s/gaczXMeGnT2ydqN)
+You can download all of them [here!](https://cloud.disroot.org/s/gaczXMeGnT2ydqN)
 
 ## Modded Spins of Legacy Edition
 Because it's Java Edition, you can add any texture packs or mods you want! People have already started making their own modpacks based off of Re-Console and Legacy4Java alike!
