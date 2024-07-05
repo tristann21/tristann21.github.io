@@ -14,6 +14,12 @@ This is a brief guide for selecting the correct Linux distribution for you. It w
 # Things You Should Know
 ***
 
+## Figure Out How You Use Your Computer
+
+First, you need to figure out the primary use of your computer. Is it for gaming, office/productive work, web browsing, checking emails, or perhaps a combination of these?
+
+Understanding how you utilize your computer and the roles it fulfills for you is *crucial* in selecting the appropriate Linux distribution for you.
+
 ## Avoid Corporate Linux Distributions
 
 Distributions like Ubuntu and Redhat are inherently evil profit incentivized corporations which should be avoided, as they put their business first and user's last much like Microsoft.
@@ -38,6 +44,16 @@ When someone or something online is telling you to execute a script or copy and 
 
 Another important thing to note; if you see a command on the internet that starts with "$", that's a Linux command. Copy it and get rid of the dollar sign for it to work.
 
+## For Gaming or Professional Use, Avoid "Slow" Distributions
+
+If you're running a gaming rig or use your computer for professional work such as heavy modeling, editing, animating, and whatever else you professionals do; You'll want a more up-to-date Linux distribution.
+
+Distributions such as Linux Mint use something called "LTS Releases". LTS = Long Term Support version. This means that the OS itself and the drivers they're using are very old, and don't get feature updates regularly like other Linux distributions. Rather, they only get security updates and bug fixes, with feature updates only being shipped at a fixed schedule every few years.  The benefit of this is having a super tried and true OS that's reliable, has almost zero bugs, and is very, very secure. But if you need the latest and greatest, this isn't a good option to take. People who use their hardware for professional tasks or for gaming will want a more up-to-date system to keep up with the constant software changes and improvements that get shipped for their machine.
+
+## Automatic Updates Aren't Usually a Thing
+
+Now I'm not saying update everyday. But, it is a good idea to update once every few months.
+
 ## Appimages, Snaps, Flatpaks, Debs, RPM's, Binaries, Galore!
 
 Linux isn't really an operating system, it's a kernel. So there are a *ton* of operating systems which run off of the kernel that use their own package formats.
@@ -56,24 +72,8 @@ Debian binaries (.deb) are Debian installers for applications, as well as Ubuntu
 
 RPM's are binaries for distributions such as Redhat, Fedora, and openSUSE.
 
-## For Gaming or Professional Use, Avoid "Slow" Distributions
-
-If you're running a gaming rig or use your computer for professional work such as heavy modeling, editing, animating, and whatever else you professionals do; You'll want a more up-to-date Linux distribution.
-
-Distributions such as Linux Mint use something called "LTS Releases". LTS = Long Term Support version. This means that the OS itself and the drivers they're using are very old, and don't get feature updates regularly like other Linux distributions. Rather, they only get security updates and bug fixes, with feature updates only being shipped at a fixed schedule every few years.  The benefit of this is having a super tried and true OS that's reliable, has almost zero bugs, and is very, very secure. But if you need the latest and greatest, this isn't a good option to take. People who use their hardware for professional tasks or for gaming will want a more up-to-date system to keep up with the constant software changes and improvements that get shipped for their machine.
-
-## Automatic Updates Aren't Usually a Thing
-
-Now I'm not saying update everyday. But, it is a good idea to update once every few months.
-
-# Getting Started
+# Best Linux Distributions
 ***
-
-## How Do I Use My Computer?
-
-First, you need to figure out the primary use of your computer. Is it for gaming, office/productive work, web browsing, checking emails, or perhaps a combination of these?
-
-Understanding how you utilize your computer and the roles it fulfills for you is *crucial* in selecting the appropriate Linux distribution for you.
 
 ## Best for Pretty Much Everybody
 
@@ -206,4 +206,4 @@ A Free and Open Source alternative to LightShot! If you wan't to rebind your pri
 
 # I hope this post finds you well. Please take care of yourself.
 
-![](https://cdn.discordapp.com/attachments/1064006615889612861/1256341921077661848/IMG_4451.png?ex=66885417&is=66870297&hm=e0a81dcbd7f4ba1df4f806c780ea4f16729d1499d758b2812b1a0c91a352ebc3&)
+![](https://media.discordapp.net/attachments/1069740328095055914/1257226613410627604/IMG_20240629_084357441_1.jpg?ex=6688e906&is=66879786&hm=4978a82e01648a013031b1db82279894ff558e43be4142ca7d32f6ed847cc2a6&)
