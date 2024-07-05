@@ -46,7 +46,7 @@ I'll run by these very briefly for ya:
 
 [Appimages](https://appimage.org/) are portable, single binary executables that you can run anywhere on any Linux distribution. I personally recommend [Gear Lever](https://github.com/mijorus/gearlever) which helps you manage Appimages with ease.
 
-[Snaps](https://snapcraft.io/) should be avoided. Same with distributions that depend on them, such as Ubuntu. As to the politics behind it, that is beyond the scope of this guide.
+[Snaps](https://snapcraft.io/) should be avoided. Same with distributions that depend on them, such as Ubuntu. As for the politics behind it, that is beyond the scope of this guide.
 
 [Flatpaks](https://www.flatpak.org/) are the standard when it comes to Linux applications and work on every distribution, and usually is the primary way of installing apps directly from the developer. These should be the preferred way of installing applications over other formats such as .deb unless you have a reason not to.
 
@@ -78,12 +78,11 @@ Understanding how you utilize your computer and the roles it fulfills for you is
 ## Best for Pretty Much Everybody
 
 ![](https://fedoraproject.org/assets/images/atomic-desktops/kde-desktop.jpg)
-You can never go wrong with Fedora Kinoite. It is a stable, up-to-date, very secure Linux distribution which utilizes modern Linux technologies such as Wayland, SELinux OSTree, butterfs, and more!
+Fedora Kinoite is great for pretty much every user out there. It is a stable, simple, up-to-date, very secure Linux distribution which utilizes modern Linux technologies such as Wayland, SELinux OSTree, butterfs, and more!
 
 * Stable, Secure, Modern
 * Up-to-date drivers
 * BTRFS
-* Best overall
 
 Fedora Kinoite is a special kind of distribution because it's a "immutable Linux distribution", meaning the operating system, is read-only at its core. This means you can't modify the OS, like the file system, directories, applications, or configuration.
 
