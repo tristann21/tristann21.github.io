@@ -1,8 +1,8 @@
 ---
 title: "Linux 4 Dummies"
 tags:
-    - guide
-    - linux
+    - Guide
+    - Linux
 date: "2024-07-04"
 thumbnail: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.extremetech.com%2Fwp-content%2Fuploads%2F2012%2F05%2FLinux-logo-without-version-number-banner-sized.jpg&f=1&nofb=1&ipt=c92203291e35eeeebf3f5ffbd35243eb0ad261013ede709132029fedfa4eeee6&ipo=images"
 bookmark: true
