@@ -122,7 +122,7 @@ Bazzite is the distribution you *want* if your primary use case is gaming. Built
 * Easy Installation for Nvidia Drivers
 * Smart Background Updates
 
-Bazzite is one of the coolest distributions out there, made by my favorite people at [universal blue](https://universal-blue.org/). It's basically Fedora Kinoite, but built by people who game on Linux every day using this OS. This is the best experience you will have when it comes to PC Gaming, period.
+Bazzite is one of the coolest distributions out there, made by my favorite people at [universal blue](https://universal-blue.org/). It's basically Fedora Kinoite, but built by people who game on Linux every day using this OS. This is the best experience you will have when it comes to PC Gaming, period. If you're curious, you can read all of the cool features and performance improvements they've added [here](https://github.com/ublue-os/bazzite?tab=readme-ov-file#about--features).
 
 However, I highly suggest checking out [protondb](https://www.protondb.com/) before switching over to Linux for gaming. This is a tool that lets you sign into your steam account, and check what games work and don't work on Linux.
 
