@@ -23,7 +23,8 @@ However, there are community [forks](https://pcof.fi/z3md9) of these distributio
 ## Installing Applications From The Web is Kinda Dumb
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcarlschwan.eu%2F2021%2F05%2F18%2Flas-2021-and-improvements-in-the-applications-infrastructure%2Fdiscover.png&f=1&nofb=1&ipt=9ea2df864982099ddb549c7fdf2c90ee122b5b7796c6b563b8055e5501ae08c7&ipo=images)
-Most Linux distributions ship with an app store of some sorts, just like your phone does. Whenever you want to install an application, you almost *never* have to search the web for a binary file and run an installer. *Always* use the app store your distribution ships with.
+
+Most Linux distributions ship with an app store of some sorts, just like how your phone does. Whenever you want to install an application, you almost *never* have to search the web for a binary file and run an installer. *Always* use the app store your distribution ships with.
 
 ## Sudo, What is it?
 
