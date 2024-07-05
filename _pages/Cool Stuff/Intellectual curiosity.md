@@ -22,15 +22,15 @@ frameborder="0"
 allow="autoplay; encrypted-media; picture-in-picture"
 allowfullscreen></iframe>
 
-"Let's consider an example from my experience at Panda Management company, where I was tasked with developing a Panda Express concept that could be implemented on any street corner in the United States.
+"Let's consider an example from my experience at Panda Management company, where I was tasked with developing a Panda Express concept that could be implemented on any street corner in the United States."
 
-My approach was rooted in intellectual curiosity. I asked numerous questions, particularly of the kitchen staff. I wanted to understand what changes were necessary in the back of the house for this restaurant concept to not only be executable but also scalable. The goal was to be able to add hundreds of these restaurants every year.
+"My approach was rooted in intellectual curiosity. I asked numerous questions, particularly of the kitchen staff. I wanted to understand what changes were necessary in the back of the house for this restaurant concept to not only be executable but also scalable. The goal was to be able to add hundreds of these restaurants every year."
 
-The results far exceeded our projections. The concept has been rolling out successfully ever since, and I firmly believe that the driving force behind this success was the constant questioning, the relentless pursuit of understanding the problem and figuring out how to solve it. That is what propelled us forward.
+"The results far exceeded our projections. The concept has been rolling out successfully ever since, and I firmly believe that the driving force behind this success was the constant questioning, the relentless pursuit of understanding the problem and figuring out how to solve it. That is what propelled us forward."
 
 Intellectual curiosity is more than just a desire to learn. It's a mindset, a way of approaching problems and seeking solutions. It's about asking the right questions, challenging assumptions, and being open to new ideas. You have to embody a mindset of perpetual learning and continual broadening of one's intellectual horizons. Whether through reading, listening to podcasts, or any other means of how you consume information. The aim should be to enrich one's perspective rather than merely reinforcing existing beliefs and residing within an echo chamber.
 
-It's a powerful tool that can lead to innovation and success, whether in business, academia, or personal growth. So, stay curious, keep asking questions, and never stop learning. The world is full of knowledge waiting to be discovered.""
+It's a powerful tool that can lead to innovation and success, whether in business, academia, or personal growth. So, stay curious, keep asking questions, and never stop learning. The world is full of knowledge waiting to be discovered.
 
 
 
