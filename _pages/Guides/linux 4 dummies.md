@@ -33,7 +33,7 @@ Another important thing to note, there are community [forks](https://pcof.fi/z3m
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcarlschwan.eu%2F2021%2F05%2F18%2Flas-2021-and-improvements-in-the-applications-infrastructure%2Fdiscover.png&f=1&nofb=1&ipt=9ea2df864982099ddb549c7fdf2c90ee122b5b7796c6b563b8055e5501ae08c7&ipo=images)
 
-Most Linux distributions ship with an software store of some sorts, like the Google Play Store or Apple App Store. Whenever you want to install an application, you almost *never* have to search the web for a binary file and run an installer. *Always* use the app store your distribution ships with.
+Most Linux distributions ship with a software center of some sorts, like the Google Play Store or Apple App Store. Whenever you want to install an application, you almost *never* have to search the web for a binary file and run an installer. *Always* use the app store your distribution ships with.
 
 ## Sudo, What is it?
 
@@ -73,17 +73,18 @@ Debian binaries (.deb) are Debian installers for applications, as well as Ubuntu
 
 RPM's are binaries for distributions such as Redhat, Fedora, and openSUSE.
 
-# Best Linux Distributions
+# Linux Distributions
 ***
 
 ## Best for Pretty Much Everybody
 
 ![](https://fedoraproject.org/assets/images/atomic-desktops/kde-desktop.jpg)
-Fedora Kinoite is great for pretty much every user out there. It is a stable, simple, up-to-date, very secure Linux distribution which utilizes modern Linux technologies such as Wayland, SELinux OSTree, butterfs, and more!
+[Fedora Kinoite](https://fedoraproject.org/atomic-desktops/kinoite/) is great for pretty much every user out there. It is a stable, simple, up-to-date, very secure Linux distribution which utilizes modern Linux technologies such as Wayland, SELinux, OSTree, butterfs, and more!
 
 * Stable, Secure, Modern
 * Up-to-date drivers
 * BTRFS
+* KDE Desktop, makes coming from Windows easier
 
 Fedora Kinoite is a special kind of distribution because it's a "immutable Linux distribution", meaning the operating system, is read-only at its core. This means you can't modify the OS, like the file system, directories, applications, or configuration.
 
@@ -94,13 +95,14 @@ Personally I think it is one of the coolest and most fascinating pieces of Linux
 ## Best for Your Grandma
 
 ![](https://www.linuxmint.com/pictures/screenshots/faye/cinnamon.png)
-Linux Mint Debian Edition is for the regular user who do simple tasks and just want their computer to work. My grandma loves this OS!
+[Linux Mint Debian Edition](https://www.linuxmint.com/download_lmde.php) is for the regular user who do simple tasks and just want their computer to work. My grandma loves this OS!
 
 * Stable, Secure, Tested
 * Long Term Support OS
 * User Experience is Priority
 * Easy Installation for Nvidia Drivers
 * Stupidly Simple
+* Cinnamon desktop, makes coming from Windows easier
 
 
 Pro tip; You should setup [Timeshift](https://itsfoss.com/backup-restore-linux-timeshift/), which is preinstalled by default. Timeshift is like Windows restore points. It's best to just select "Weekly" and nothing else for snapshot levels.
@@ -114,7 +116,7 @@ It's one of the easiest to use and most stable distributions out there. It uses 
 ## Best for Your Gaming Rig
 
 ![](https://bazzite.gg/wp-content/uploads/2024/02/kde.webp)
-Bazzite is the distribution you *want* if your primary use case is gaming. Built on-top of Fedora Kinoite.
+[Bazzite](https://bazzite.gg/) is thee distribution you *want* if your primary use case is gaming. Built on-top of Fedora Kinoite.
 
 * Games Just Work
 * Stable, Secure, Modern
@@ -122,6 +124,7 @@ Bazzite is the distribution you *want* if your primary use case is gaming. Built
 * Easy to Configure
 * Easy Installation for Nvidia Drivers
 * Smart Background Updates
+* KDE Desktop, makes coming from Windows easier
 
 Bazzite is one of the coolest distributions out there, made by my favorite people at [universal blue](https://universal-blue.org/). It's basically Fedora Kinoite, but built by people who game on Linux every day using this OS. This is the best experience you will have when it comes to PC Gaming, period. If you're curious, you can read all of the cool features and performance improvements they've added [here](https://github.com/ublue-os/bazzite?tab=readme-ov-file#about--features).
 
@@ -145,10 +148,79 @@ Some see this as a great thing, others don't. With EndeavourOS, it is *your* res
 
 You are responsible for everything. If something breaks, it is up to you to fix it. EndeavourOS is only as stable as you make it to be.
 
+# How do I Install Linux?
+***
+
+Congrats on picking your Linux distribution! This guide assumes you're using Windows.
+
+## Testing Linux before installing it
+
+You can format Linux onto a thumb drive and boot off of said thumb drive without affecting your Windows installation at all! It won't touch your computer's drive either. *Some* Linux distributions will boot you into a test environment where you can do whatever you want, and see how comfortable you are in Linux! If however you're using a Linux distribution that doesn't have a live test environment, you can always look up on YouTube about the distribution you're thinking of using!
+
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/Zdn-sgKT0c8"
+frameborder="0"
+allow="autoplay; encrypted-media; picture-in-picture"
+allowfullscreen></iframe>
+
+## Prerequisites
+
+1. You need a thumb drive that has at least 8 gigabytes of storage
+1. You must make sure you have nothing important on the thumb drive, as it will be reformatted to be a bootable Linux drive. (You can revert it back later) First, you need a thumb drive that doesn't have any important files on them
+1. If you have anything important on your computer that you don't want to lose, back them up ***before*** installing Linux; As installing Linux will reformat your computer's drive as well.
+
+## Step one: Making a Bootable Thumb Drive
+
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/GvI0oyTsuxI"
+frameborder="0"
+allow="autoplay; encrypted-media; picture-in-picture"
+allowfullscreen></iframe>
+
+1. Download whatever Linux distribution you want to use
+1. Download [Rufus](https://rufus.ie/en/)
+1. Plugin your thumb drive
+1. Launch Rufus
+1. Select the thumb drive you wish to format Linux onto
+![](/assets/img/thumbnail/rufus1)
+1. Press "Select" in Rufus to open file manager
+![](/assets/img/thumbnail/rufus2)
+1. Click on the ISO file, then press "Open"
+![](/assets/img/thumbnail/rufus3)
+1. Click on "Start"
+![](/assets/img/thumbnail/rufus4)
+1. Ensure "Write in ISO mode" is selected, and then click "OK"
+![](/assets/img/thumbnail/rufus5)
+
+Now Windows *might* come up and saying it can't read your thumb drive, or that it's corrupted; **Do not press "OK"** Just close out of the pop up. That's just Windows being stupid and trying to get rid of your Linux!
+
+Next, you need to look up how to enter into the "one time boot menu" screen on your computer.
+
+* If you built your computer yourself, search on duckduckgo "How to boot into one time boot menu with (motherboard manufacturer)" e.g., acer, msi, asus.
+* If you bought a prebuilt computer, search on duckduckgo "How to boot into one time boot menu with (computer manufacturer)" e.g., dell, lenovo, hp.
+* If you bought a laptop, search on duckduckgo "How to boot into one time boot menu with (laptop manufacturer)" e.g., dell, lenovo, hp.
+
+Now that you have figured out which key you need to press in order to access the boot menu, shutdown your computer, press and hold down on the key, and then turn it back on. Don't let go until you see the one time boot menu pop up.
+
+It'll look something like this;
+
+1[](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fdellwindowsreinstallationguide.com%2Fwp-content%2Fuploads%2F2016%2F07%2Fboot-menu-one-time-usb2.png%3Fssl%3D1&f=1&nofb=1&ipt=3791dfacf393fbe0cbdaed1835e3d5097d9fd047f8f6ec1e4375a7ecaef12e34&ipo=images)
+
+It will either be named what your thumb drive is named, e.g., sandisk. Or, it will be named whatever Linux distribution you formatted onto it.
+
+Use the up and down arrow keys to select your thumb drive, then press the Enter when you select it.
+
+![](https://forum.zorin.com/uploads/default/original/2X/2/2c655f9b53b921a9022bbaa87b072472442a04e7.jpeg)
+
+If for whatever reason the "Perform MDK management" screen pops up, it means your computer has something called "Secure Boot" on and won't let you boot into Linux. Secure Boot is made primarily for Windows, and needs to be disabled in order to continue.
+
+Look up your laptop/computer/motherboard manufacturer on how to disable Secure Boot.
+
+
 # Cool Software You Should Know
 ***
 
-Congrats on picking your Linux distribution! I want to quickly go over some cool pieces of software I feel like you'd find useful!
+I want to quickly go over some cool pieces of software I feel like you'd find useful!
 
 **Remember to install them via your distributions app store!**
 

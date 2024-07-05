@@ -17,7 +17,7 @@ I fundementally believe, that empowering yourself and everyone around you to ach
 ***
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/OOVYN_qDY9E"
+src="https://www.youtube-nocookie.com/embed/OOVYN_qDY9E"
 frameborder="0"
 allow="autoplay; encrypted-media; picture-in-picture"
 allowfullscreen></iframe>
