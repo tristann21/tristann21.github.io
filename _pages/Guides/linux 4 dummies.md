@@ -24,7 +24,7 @@ However, there are community [forks](https://pcof.fi/z3md9) of these distributio
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcarlschwan.eu%2F2021%2F05%2F18%2Flas-2021-and-improvements-in-the-applications-infrastructure%2Fdiscover.png&f=1&nofb=1&ipt=9ea2df864982099ddb549c7fdf2c90ee122b5b7796c6b563b8055e5501ae08c7&ipo=images)
 
-Most Linux distributions ship with an app store of some sorts, just like how your phone does. Whenever you want to install an application, you almost *never* have to search the web for a binary file and run an installer. *Always* use the app store your distribution ships with.
+Most Linux distributions ship with an software store of some sorts, like the Google Play Store or Apple App Store. Whenever you want to install an application, you almost *never* have to search the web for a binary file and run an installer. *Always* use the app store your distribution ships with.
 
 ## Sudo, What is it?
 
@@ -42,23 +42,23 @@ Linux isn't really an operating system, it's a kernel. So there are a *ton* of o
 
 I'll run by these very briefly for ya:
 
-[Appimages](https://appimage.org/) are portable, single binary executables that you can run anywhere on any Linux distribution, and they don't require being installed. I personally recommend [Gear Lever](https://github.com/mijorus/gearlever) which helps you manage Appimages with ease.
+[Appimages](https://appimage.org/) are portable, single binary executables that you can run anywhere on any Linux distribution. I personally recommend [Gear Lever](https://github.com/mijorus/gearlever) which helps you manage Appimages with ease.
 
-[Snaps](https://snapcraft.io/) should be avoided, same with distributions that depend on them, such as Ubuntu. As to the politics behind it, is beyond the scope of this guide.
+[Snaps](https://snapcraft.io/) should be avoided. Same with distributions that depend on them, such as Ubuntu. As to the politics behind it, that is beyond the scope of this guide.
 
-[Flatpaks](https://www.flatpak.org/) are the standard when it comes to Linux applications and work on every distribution, and are the main way of installing apps directly from the developer. These should be the preferred way of installing applications over other formats such as .deb unless you have a reason not to.
+[Flatpaks](https://www.flatpak.org/) are the standard when it comes to Linux applications and work on every distribution, and usually is the primary way of installing apps directly from the developer. These should be the preferred way of installing applications over other formats such as .deb unless you have a reason not to.
 
-Deb files (.deb) are Debian installers for applications, as well as Ubuntu and their derivatives. I personally recommend [GDebi](https://launchpad.net/gdebi) to easily install .deb applications.
+Debian binaries (.deb) are Debian installers for applications, as well as Ubuntu and their derivatives. I personally recommend [GDebi](https://launchpad.net/gdebi) to easily install Debian binaries.
 
 `$ sudo apt install gdebi -y`
 
-RPM's are installers for applications for distributions such as Redhat, Fedora, and openSUSE.
+RPM's are binaries for distributions such as Redhat, Fedora, and openSUSE.
 
 ## For Gaming or Professional Use, Avoid "Slow" Distributions
 
 If you're running a gaming rig or use your computer for professional work such as heavy modeling, editing, animating, and whatever else you professionals do; You'll want a more up-to-date Linux distribution.
 
-Before immutable distributions, Ubuntu, Debian, Linux Mint, and others use something called "LTS Releases". LTS = Long Term Support version. This means that the OS itself and the drivers they're using are very old, and don't get feature updates regularly like other Linux distributions. Rather, they get feature updates at a fixed schedule every few years, and security updates and bug fixes are the only updated allowed. The benefit of this is having a super tried and true OS that's reliable, has almost zero bugs, and is very, very secure. But if you need the latest and greatest, this isn't a good option to take. People who use their hardware for professional tasks or gaming, will want a more up-to-date system to keep up with the constant hardware changes and improvements for their machine.
+Distributions such as Linux Mint use something called "LTS Releases". LTS = Long Term Support version. This means that the OS itself and the drivers they're using are very old, and don't get feature updates regularly like other Linux distributions. Rather, they only get security updates and bug fixes, with feature updates only being shipped at a fixed schedule every few years.  The benefit of this is having a super tried and true OS that's reliable, has almost zero bugs, and is very, very secure. But if you need the latest and greatest, this isn't a good option to take. People who use their hardware for professional tasks or for gaming will want a more up-to-date system to keep up with the constant software changes and improvements that get shipped for their machine.
 
 ## Automatic Updates Aren't Usually a Thing
 
@@ -85,33 +85,34 @@ You can never go wrong with Fedora Kinoite. It is a stable, up-to-date, very sec
 
 Fedora Kinoite is a special kind of distribution because it's a "immutable Linux distribution", meaning the operating system, is read-only at its core. This means you can't modify the OS, like the file system, directories, applications, or configuration.
 
-I know what you're probably thinking, "that sounds really limiting!" well, it's not! All your files are in a "home" directory. This is separate from the OS, and where all of your files, settings, and local configurations stay. The applications you install are also sandboxed within your home directory! It's stupidly reliable and secure. And, if anything goes wrong, you can simply rollback to the previous version before you updated. As immutable distributions use "snapshots" which you can rollback too at anytime.
+I know what you're probably thinking, "that sounds really limiting!" well, it's not! All your files are in a "home" directory. This is separate from the OS, and where all of your files, settings, and local configurations stay. The applications you install are also sandboxed within your home directory! It's stupidly reliable and secure. And, if anything goes wrong, you can simply rollback to the previous version before you updated. Because, immutable distributions use "snapshots" which you can rollback too at anytime.
 
 Personally I think it is one of the coolest and most fascinating pieces of Linux technology! But, I want to keep this guide simple. So if you want to dig a little deeper into how immutable distributions work, you can read [this amazing article here](https://www.zdnet.com/article/what-is-immutable-linux-heres-why-youd-run-an-immutable-linux-distro/).
 
 ## Best for Your Grandma
 
 ![](https://www.linuxmint.com/pictures/screenshots/faye/cinnamon.png)
-Linux Mint Debian Edition is for the regular user who do simple tasks and just want their computer to work. My grandma (80) loves this OS!
+Linux Mint Debian Edition is for the regular user who do simple tasks and just want their computer to work. My grandma loves this OS!
 
 * Stable, Secure, Tested
 * Long Term Support OS
 * User Experience is Priority
 * Easy Installation for Nvidia Drivers
+* Stupidly Simple
 
 
 Pro tip; You should setup [Timeshift](https://itsfoss.com/backup-restore-linux-timeshift/), which is preinstalled by default. Timeshift is like Windows restore points. It's best to just select "Weekly" and nothing else for snapshot levels.
 
 A "regular user" in my book is someone who just wants to do simple web browsing, listen to music, edit documents, print stuff, and maybe some video conferencing. Someone who doesn't really care about "having the latest and greatest". Someone who doesn't want anything fancy, just for their machine to work.
 
-If you fit into that category, the safest option will always be [Linux Mint Debian Edition](https://www.linuxmint.com/download_lmde.php).
+If you fit into that category, the best option will always be [Linux Mint Debian Edition](https://www.linuxmint.com/download_lmde.php).
 
-It's one of the easiest to use and most stable distributions out there. It uses tested, tried and true Linux technologies. Linux Mint has always focused on putting the user experience first when it comes to their desktop and their applications with their user interface
+It's one of the easiest to use and most stable distributions out there. It uses tested, tried and true Linux technologies. Linux Mint has always focused on putting the user experience first when it comes to their desktop and their applications with its desktop environment.
 
 ## Best for Your Gaming Rig
 
 ![](https://bazzite.gg/wp-content/uploads/2024/02/kde.webp)
-Bazzite is the distribution you *want* if you're primary use case is gaming. Built on-top of Fedora Kinoite.
+Bazzite is the distribution you *want* if your primary use case is gaming. Built on-top of Fedora Kinoite.
 
 * Games Just Work
 * Stable, Secure, Modern
@@ -120,11 +121,11 @@ Bazzite is the distribution you *want* if you're primary use case is gaming. Bui
 * Easy Installation for Nvidia Drivers
 * Smart Background Updates
 
-Bazzite is one of the coolest distributions out there, made by my favorite people at [universal blue](https://universal-blue.org/). It's basically Fedora Kinoite, but built by people who game on Linux every day, and use this OS. This is the best experience you will have when it comes to PC Gaming, period.
+Bazzite is one of the coolest distributions out there, made by my favorite people at [universal blue](https://universal-blue.org/). It's basically Fedora Kinoite, but built by people who game on Linux every day using this OS. This is the best experience you will have when it comes to PC Gaming, period.
 
-However, I highly suggest checking out [protondb](https://www.protondb.com/) before switching over to Linux for gaming. This is a tool that lets you sign into your steam account, and check what games work on Linux and what games don't.
+However, I highly suggest checking out [protondb](https://www.protondb.com/) before switching over to Linux for gaming. This is a tool that lets you sign into your steam account, and check what games work and don't work on Linux.
 
-Sadly, while games not only run on Linux, but even better than on Windows nowadays; Companies who introduce anti-cheats into their multiplayer games will purposefully kick you out if they detect you're not on Windows. So it's best to check protondb before making the jump.
+Sadly, even though Linux can run games better than on Windows, companies who implement anti-cheats into their multiplayer games will purposefully kick you out if they detect you're not on Windows. So it's best to check protondb before making the jump.
 
 ## Best for The Tinkerers
 
@@ -140,7 +141,7 @@ EndeavourOS is based off of Arch, and gives you complete freedom to do whatever 
 
 Some see this as a great thing, others don't. With EndeavourOS, it is *your* responsibility to setup the security, to setup your desktop environment, your packages, drivers, everything. Because of this, EndeavourOS is a very terminal centric distribution, made for people who either know what they're doing or want to learn and don't mind spending hours of troubleshooting and setting up their system how they want it.
 
-You are responsible for everything. If something breaks, it is up to you to fix it.
+You are responsible for everything. If something breaks, it is up to you to fix it. EndeavourOS is only as stable as you make it to be.
 
 # Cool Software You Should Know
 ***
