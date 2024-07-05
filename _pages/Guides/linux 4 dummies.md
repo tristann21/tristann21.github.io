@@ -103,7 +103,7 @@ Linux Mint is for the regular user who do simple tasks and just want their compu
 
 Pro tip; You should setup [Timeshift](https://itsfoss.com/backup-restore-linux-timeshift/), which is preinstalled by default. Timeshift is like Windows restore points. It's best to just select "Weekly" and nothing else for snapshot levels.
 
-A "regular user" in my book is someone who just wants to do simple web browsing, listen to music, edit documents, print stuff, and video conferencing. Someone who doesn't really care about "having the latest and greatest". Someone who doesn't want something fancy.
+A "regular user" in my book is someone who just wants to do simple web browsing, listen to music, edit documents, print stuff, and maybe some video conferencing. Someone who doesn't really care about "having the latest and greatest". Someone who doesn't want something fancy, just for it to work.
 
 If you're just a regular user who fits into that category, the safest option will Always be [Linux Mint](https://www.linuxmint.com/). or what I personally recommend; [Linux Mint Debian Edition](https://www.linuxmint.com/download_lmde.php).
 
