@@ -9,7 +9,7 @@ bookmark: true
 
 Reggie Fils-Aimé was one of gamings greatest legends, and I want to share his insight into the power of intellectual curiosity. It is a testament to the transformative potential of a mindset rooted in continuous learning and the relentless pursuit of knowledge.
 
-He defines it not as a thirst for knowledge, but as a commitment to continually expanding one’s intellectual horizons. Intellectual curiosity allows us to overcome previously insurmountable barriers. By asking probing questions and striving to truly understand the issues at hand, we can often find innovative solutions and achieve remarkable results.
+Intellectual curiosity allows us to overcome previously insurmountable barriers. By asking probing questions and striving to truly understand the issues at hand, we can often find innovative solutions and achieve remarkable results.
 
 I fundementally believe, that empowering yourself and everyone around you to achieve a goal, will make you achieve them.
 
