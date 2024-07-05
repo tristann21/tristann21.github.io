@@ -13,7 +13,7 @@ He defines it not as a thirst for knowledge, but as a commitment to continually 
 
 I fundementally believe, that empowering yourself and everyone around you to achieve a goal, will drive those results.
 
-# Reggie Fils-Aimé at Panda Management Company
+# Reggie Fils-Aimé on the topic
 ***
 >Let's consider an example from my experience at Panda Management company, where I was tasked with developing a Panda Express concept that could be implemented on any street corner in the United States.
 >
