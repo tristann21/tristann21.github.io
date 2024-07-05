@@ -10,19 +10,26 @@ bookmark: true
 ---
 
 Legacy4Java is an extremely passionate mod made by Wilyicaro, which reimplements Minecraft's classic console edition features from the likes of Playstation and Xbox to modern versions of Java!
+
 ![](https://www.youtube.com/watch?v=tjbNFWbbWxU)
+
 # Reimplementing Console Features to Java
 Legacy4J meticulously reimplements every feature of 4J Studios' Minecraft for Java Edition. It encompasses all the interfaces from the console edition, including texture packs such as the iconic plastic texturepack! Classic skins which will soon be available, along with all the sound effects and graphics, like the gamma system, which appear strikingly identical. As well as the old terrain generation!
 
 Not to be overlooked are the tutorial worlds - each one faithfully recreated/ported into Legacy4J!
+
 ![](https://cdn.modrinth.com/data/gHvKJofA/images/687118a2266f06989b2966da9a7c0e2f269fe7e4.png)
+
 This makes me excited to play Minecraft again! And, in my opinion, is one of the best ways to experience Minecraft portably on the Steam Deck!
+
 # Some Other Neat Stuff
 ## Kyubion Studios Partnered with Wilyicaro
 And made a modpack which builds ontop of Legacy4Java, providing one of the best ways to experience what Minecraft objectively should've been.
 [https://modrinth.com/modpack/legacy-minecraft](https://modrinth.com/modpack/legacy-minecraft)
+
 ## Classic Xbox 360 Skins!!
 You can download an archive for all of them [here!](https://cloud.disroot.org/s/gaczXMeGnT2ydqN)
+
 ## Modded Spins of Legacy Edition
 Because it's Java Edition, you can add any texture packs or mods you want! People have already started making their own modpacks based off of Re-Console and Legacy4Java alike!
 [https://github.com/contrarybaton60/Williams-Console](https://github.com/contrarybaton60/Williams-Console)

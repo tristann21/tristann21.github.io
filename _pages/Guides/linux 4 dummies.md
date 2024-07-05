@@ -8,7 +8,7 @@ thumbnail: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.extr
 bookmark: true
 ---
 
-This is a brief guide for selecting the correct Linux distribution for you. It will also cover file systems, Linux applications, and file formats, along with useful tips and tricks for your Linux distribution, and more!
+This is a brief guide for selecting the correct Linux distribution for you. It will also briefly teach you small important details, and show you cool Linux apps you might benifit from!
 
 
 # Things You Should Know
