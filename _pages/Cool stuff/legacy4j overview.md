@@ -29,7 +29,7 @@ This makes me excited to play Minecraft again! And, in my opinion, is one of the
 
 And made a modpack which builds ontop of Legacy4Java, providing one of the best ways to experience what Minecraft objectively should've been.
 
-https://modrinth.com/modpack/legacy-minecraft
+![](https://modrinth.com/modpack/legacy-minecraft)
 
 ## Classic Xbox 360 Skins!!
 
@@ -39,7 +39,7 @@ You can download a archive for all of them [here!](https://cloud.disroot.org/s/g
 
 Because it's Java Edition, you can add any texture packs or mods you want! People have already started making their own modpacks based off of Re-Console and Legacy4Java alike!
 
-https://github.com/contrarybaton60/Williams-Console
+![](https://github.com/contrarybaton60/Williams-Console)
 
 
 ## Cool Community Screenshots I Found

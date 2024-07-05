@@ -76,7 +76,6 @@ Understanding how you utilize your computer and the roles it fulfills for you is
 ## Best for Pretty Much Anybody
 
 ![](https://fedoraproject.org/assets/images/atomic-desktops/kde-desktop.jpg)
-
 You can never go wrong with Fedora Kinoite. It is a stable, up-to-date, very secure Linux distribution which utilizes modern Linux technologies such as Wayland, SELinux OSTree, butterfs, and more!
 
 * Stable, Secure, Modern
@@ -90,12 +89,11 @@ I know what you're probably thinking, "that sounds really limiting!" well, it's 
 
 Basically, immutable distributions are one of thee most stable, reliable, and secure distributions out there. And, if anything goes wrong, you can simply rollback to the previous version before you updated. As immutable distributions use "snapshots" which you can rollback too at anytime.
 
-Personally I think it is one of the coolest and most fascinating pieces of Linux technology! But, I want to keep this simple. So if you want to dig a little deeper into how immutable distributions work, you can read [this](https://www.zdnet.com/article/what-is-immutable-linux-heres-why-youd-run-an-immutable-linux-distro/) amazing article here.
+Personally I think it is one of the coolest and most fascinating pieces of Linux technology! But, I want to keep this simple. So if you want to dig a little deeper into how immutable distributions work, you can read [this amazing article here](https://www.zdnet.com/article/what-is-immutable-linux-heres-why-youd-run-an-immutable-linux-distro/).
 
 ## Best for Your Grandma
 
 ![](https://www.linuxmint.com/pictures/screenshots/faye/cinnamon.png)
-
 Linux Mint is for the regular users who do simple tasks and just want their computer to work.
 
 * Stable, Secure, Tested
@@ -117,7 +115,6 @@ Linux Mint Debian Edition takes the stability to a step further by instead using
 ## Best for your Gaming Rig
 
 ![](https://bazzite.gg/wp-content/uploads/2024/02/kde.webp)
-
 Bazzite is the distribution you *want* if you're primary use case is gaming. Built on-top of Fedora Kinoite.
 
 * Games Just Work
@@ -136,7 +133,6 @@ Sadly, while games not only run on Linux, but even better than on Windows nowada
 ## Best for the Tinkerers
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.opensourcefeed.org%2Fassets%2Fimages%2Fpreview%2Fendeavouros-preview.jpg&f=1&nofb=1&ipt=78666aba5bd4ded4a782fe16a7a84dffec2e424480ca4ddc9ab01311500524f6&ipo=images)
-
 EndeavourOS is thee distribution you'd want to go for if you want true freedom, and to customize anything and everything *exactly* how you want it.
 
 EndeavourOS is based off of Arch, and gives you complete freedom to do whatever you want on your system. **There are no guardrails.**
