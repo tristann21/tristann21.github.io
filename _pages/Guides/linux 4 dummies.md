@@ -18,7 +18,9 @@ This is a brief guide for selecting the correct Linux distribution for you. It w
 
 Distributions like Ubuntu and Redhat are inherently evil profit incentivized corporations which should be avoided, as they put their business first and user's last much like Microsoft.
 
-However, there are community [forks](https://pcof.fi/z3md9) of these distributions such as [Linux Mint](https://www.linuxmint.com/), which are based off of Ubuntu. This doesn't mean that Linux Mint is bad, as it only uses Ubuntu as a base and has become it's own thing entirely. Despite being based off of Ubuntu, Linux Mint is community driven.
+Linux distributions made by a community, rather than a corporation, are always the better of choices.
+
+Another important thing to note, there are community [forks](https://pcof.fi/z3md9) of these distributions such as [Linux Mint](https://www.linuxmint.com/), which are based off of Ubuntu. This doesn't mean that Linux Mint is bad, as it only uses Ubuntu as a base and has become it's own thing entirely. And, despite being based off of Ubuntu, Linux Mint is community driven!
 
 ## Installing Applications From The Web is Kinda Dumb
 
