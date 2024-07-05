@@ -1,5 +1,5 @@
 ---
-title: "Legacy4Java is what Bedrock should have been"
+title: "Legacy4Java is What Bedrock Should Have Been"
 tags:
     - Cool Stuff
     - Gaming
@@ -29,17 +29,17 @@ This makes me excited to play Minecraft again! And, in my opinion, is one of the
 
 And made a modpack which builds ontop of Legacy4Java, providing one of the best ways to experience what Minecraft objectively should've been.
 
-![](https://modrinth.com/modpack/legacy-minecraft)
+![https://modrinth.com/modpack/legacy-minecraft](https://modrinth.com/modpack/legacy-minecraft)
 
 ## Classic Xbox 360 Skins!!
 
-You can download a archive for all of them [here!](https://cloud.disroot.org/s/gaczXMeGnT2ydqN)
+You can download an archive for all of them [here!](https://cloud.disroot.org/s/gaczXMeGnT2ydqN)
 
 ## Modded Spins of Legacy Edition
 
 Because it's Java Edition, you can add any texture packs or mods you want! People have already started making their own modpacks based off of Re-Console and Legacy4Java alike!
 
-![](https://github.com/contrarybaton60/Williams-Console)
+![https://github.com/contrarybaton60/Williams-Console](https://github.com/contrarybaton60/Williams-Console)
 
 
 ## Cool Community Screenshots I Found
@@ -50,6 +50,6 @@ Because it's Java Edition, you can add any texture packs or mods you want! Peopl
 
 
 
-I hope this post finds you well. Please take care of yourself.
+# I hope this post finds you well. Please take care of yourself.
 
 ![](https://cdn.discordapp.com/attachments/1064006615889612861/1242119597919043714/20221121_115950-1.png?ex=6688a9c5&is=66875845&hm=2507f615150126fa1b7bd34b6cc9354f3a7231854b4ee413d1d871e7f0e68bc1&)

@@ -23,7 +23,6 @@ However, there are community [forks](https://en.wikipedia.org/wiki/Fork_(softwar
 ## Installing Applications From The Web is Kinda Dumb
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcarlschwan.eu%2F2021%2F05%2F18%2Flas-2021-and-improvements-in-the-applications-infrastructure%2Fdiscover.png&f=1&nofb=1&ipt=9ea2df864982099ddb549c7fdf2c90ee122b5b7796c6b563b8055e5501ae08c7&ipo=images)
-
 Most Linux distributions ship with an app store of some sorts, just like your phone does. Whenever you want to install an application, you almost *never* have to search the web for a binary file and run an installer. *Always* use the app store your distribution ships with.
 
 ## Sudo, what is it?
@@ -69,11 +68,11 @@ Now I'm not saying update everyday. But, it is a good idea to update once every 
 
 ## How Do I Use My Computer?
 
-First, lets figure out the primary use of your computer. Is it for gaming, office/productive work, web browsing, checking emails, or perhaps a combination of these?
+First, you need to figure out the primary use of your computer. Is it for gaming, office/productive work, web browsing, checking emails, or perhaps a combination of these?
 
 Understanding how you utilize your computer and the roles it fulfills for you is *crucial* in selecting the appropriate Linux distribution for you.
 
-## Best for Pretty Much Anybody
+## Best for Pretty Much Everybody
 
 ![](https://fedoraproject.org/assets/images/atomic-desktops/kde-desktop.jpg)
 You can never go wrong with Fedora Kinoite. It is a stable, up-to-date, very secure Linux distribution which utilizes modern Linux technologies such as Wayland, SELinux OSTree, butterfs, and more!
@@ -94,7 +93,7 @@ Personally I think it is one of the coolest and most fascinating pieces of Linux
 ## Best for Your Grandma
 
 ![](https://www.linuxmint.com/pictures/screenshots/faye/cinnamon.png)
-Linux Mint is for the regular users who do simple tasks and just want their computer to work.
+Linux Mint is for the regular user who do simple tasks and just want their computer to work.
 
 * Stable, Secure, Tested
 * Long Term Support OS
@@ -121,7 +120,7 @@ Bazzite is the distribution you *want* if you're primary use case is gaming. Bui
 * Stable, Secure, Modern
 * Performance Enhancements
 * Easy to Configure
-* Easy to Install Nvidia Drivers
+* Easy Installation for Nvidia Drivers
 * Smart Background Updates
 
 Bazzite is one of the coolest distributions out there, made by my favorite people at [universal blue](https://universal-blue.org/). It's basically Fedora Kinoite, but built by people who game on Linux every day, and use this OS. This is the best experience you will have when it comes to PC Gaming, period.
@@ -137,6 +136,11 @@ EndeavourOS is thee distribution you'd want to go for if you want true freedom, 
 
 EndeavourOS is based off of Arch, and gives you complete freedom to do whatever you want on your system. **There are no guardrails.**
 
+* Easy to Configure
+* Easy Installation for Nvidia Drivers
+* Huge Repository
+* Complete Freedom
+
 Some see this as a great thing, others don't. With EndeavourOS, it is *your* responsibility to setup the security, to setup your desktop environment, your packages, drivers, everything. Because of this, EndeavourOS is a very terminal centric distribution, made for people who either know what they're doing or want to learn and don't mind spending hours of troubleshooting and setting up their system how they want it.
 
 You are responsible for everything. If something breaks, it is up to you to fix it.
@@ -150,49 +154,49 @@ Congrats on picking your Linux distribution! 'm gonna go over this section brief
 
 ## GPU Screen Recorder
 
-https://flathub.org/apps/com.dec05eba.gpu_screen_recorder
+1[https://flathub.org/apps/com.dec05eba.gpu_screen_recorder](https://flathub.org/apps/com.dec05eba.gpu_screen_recorder)
 
 The fastest screen recorder for Linux. It lets you record, livestream, and take clips all in a very, very simple user interface that takes seconds to setup.
 
 ## Lutris
 
-https://flathub.org/apps/net.lutris.Lutris
+1[https://flathub.org/apps/net.lutris.Lutris](https://flathub.org/apps/net.lutris.Lutris)
 
 Easily install and setup launchers from Epic Games, GOG, itch.io, EA, Ubisoft Connect, and more!
 
 ## Heoric Games launchers
 
-https://flathub.org/apps/com.heroicgameslauncher.hgl
+1[https://flathub.org/apps/com.heroicgameslauncher.hgl](https://flathub.org/apps/com.heroicgameslauncher.hgl)
 
 A Native Linux games launcher for installing Epic Games, Amazon Prime, and GOG games all in one launcher. The best way to install and manage games from those services, in my opinion!
 
 ## Spot
 
-https://flathub.org/apps/dev.alextren.Spot
+1[https://flathub.org/apps/dev.alextren.Spot](https://flathub.org/apps/dev.alextren.Spot)
 
 Stupidly fast and simple Spotify music streaming client for Spotify Premium users.
 
 ## Deja Dup Backups
 
-https://flathub.org/apps/org.gnome.DejaDup
+1[https://flathub.org/apps/org.gnome.DejaDup](https://flathub.org/apps/org.gnome.DejaDup)
 
 Securely backup your home directory locally, remotely, or via the cloud with services such as Google Drive. Supports encrypting your backups!
 
 ## Vesktop
 
-https://flathub.org/apps/dev.vencord.Vesktop
+1[https://flathub.org/apps/dev.vencord.Vesktop](https://flathub.org/apps/dev.vencord.Vesktop)
 
 Vesktop is *thee* best Discord client for Linux. It's native, fast, and let's you screenshare on Linux!
 
 ## Prism Launcher
 
-https://flathub.org/apps/org.prismlauncher.PrismLauncher
+![https://flathub.org/apps/org.prismlauncher.PrismLauncher](https://flathub.org/apps/org.prismlauncher.PrismLauncher)
 
 The best Minecraft launcher when it comes to managing modpacks and multiple installations. It lets you download modpacks straight from curseforge and Modrinth!
 
 ## Flameshot
 
-https://flathub.org/apps/org.flameshot.Flameshot
+![https://flathub.org/apps/org.flameshot.Flameshot](https://flathub.org/apps/org.flameshot.Flameshot)
 
 A Free and Open Source alternative to LightShot! If you wan't to rebind your print screen key with flameshot, go into your keyboard shortcut settings and make a new custom shortcut. Set printscreen to `flatpak run org.flameshot.Flameshot gui`
 
@@ -203,6 +207,6 @@ A Free and Open Source alternative to LightShot! If you wan't to rebind your pri
 I hope you found this guide useful, and I hope even more you enjoy Linux! I'm really happy you took the time to read this and learn more about it and make an actual informed decision. Whether you're switching for freedom, security, privacy, performance, battery life, or whatever else, I'm excited to have another penguin on board!
 
 
-I hope this post finds you well. Please take care of yourself.
+# I hope this post finds you well. Please take care of yourself.
 
 ![](https://cdn.discordapp.com/attachments/1064006615889612861/1256341921077661848/IMG_4451.png?ex=66885417&is=66870297&hm=e0a81dcbd7f4ba1df4f806c780ea4f16729d1499d758b2812b1a0c91a352ebc3&)

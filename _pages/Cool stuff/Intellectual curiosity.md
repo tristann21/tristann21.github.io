@@ -16,7 +16,11 @@ I fundementally believe, that empowering yourself and everyone around you to ach
 # Reggie Fils-Aimé on the topic
 ***
 
-![](https://www.youtube.com/watch?v=OOVYN_qDY9E)
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/OOVYN_qDY9E"
+frameborder="0"
+allow="autoplay; encrypted-media; picture-in-picture"
+allowfullscreen></iframe>
 
 Let's consider an example from my experience at Panda Management company, where I was tasked with developing a Panda Express concept that could be implemented on any street corner in the United States.
 
@@ -29,6 +33,6 @@ Intellectual curiosity is more than just a desire to learn. It's a mindset, a wa
 You have to embody a mindset of perpetual learning and continual broadening of one's intellectual horizons. Whether through reading, listening to podcasts, or any other means of how you consume information. The aim should be to enrich one's perspective rather than merely reinforcing existing beliefs and residing within an echo chamber.
 
 
-I hope this post finds you well. Please take care of yourself.
+# I hope this post finds you well. Please take care of yourself.
 
 ![](https://cdn.discordapp.com/attachments/1064006615889612861/1251756232046280755/image0.jpg?ex=66882016&is=6686ce96&hm=026ea8ca2b7b0d3e92848af98ab132fe533dbb468534712b3a6c1d92ac03759e&)
