@@ -279,4 +279,4 @@ A Free and Open Source alternative to LightShot! If you wan't to rebind your pri
 
 # I hope this post finds you well. Please take care of yourself.
 
-![](https://media.discordapp.net/attachments/1069740328095055914/1257226613410627604/IMG_20240629_084357441_1.jpg?ex=6688e906&is=66879786&hm=4978a82e01648a013031b1db82279894ff558e43be4142ca7d32f6ed847cc2a6&)
+![](/assets/img/thumbnail/IMG_20240629_084357441_1.jpg)

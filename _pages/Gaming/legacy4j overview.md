@@ -45,4 +45,4 @@ Because it's Java Edition, you can add any texture packs or mods you want! Peopl
 
 # I hope this post finds you well. Please take care of yourself.
 
-![](https://cdn.discordapp.com/attachments/1064006615889612861/1242119597919043714/20221121_115950-1.png?ex=6688a9c5&is=66875845&hm=2507f615150126fa1b7bd34b6cc9354f3a7231854b4ee413d1d871e7f0e68bc1&)
+![](/assets/img/thumbnail/20221121_115950-1.png)
