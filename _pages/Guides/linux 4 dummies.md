@@ -47,7 +47,7 @@ Another important thing to note; if you see a command on the internet that start
 
 ## For Gaming or Professional Use, Avoid "Slow" Distributions
 
-If you're running a gaming rig or use your computer for professional work such as heavy modeling, editing, animating, and whatever else you professionals do; You'll want a more up-to-date Linux distribution.
+If you're running a gaming rig or use your computer for professional work, you'll want a more up-to-date Linux distribution.
 
 Distributions such as Linux Mint use something called "LTS Releases". LTS = Long Term Support version. This means that the OS itself and the drivers they're using are very old, and don't get feature updates regularly like other Linux distributions. Rather, they only get security updates and bug fixes, with feature updates only being shipped at a fixed schedule every few years.  The benefit of this is having a super tried and true OS that's reliable, has almost zero bugs, and is very, very secure. But if you need the latest and greatest, this isn't a good option to take. People who use their hardware for professional tasks or for gaming will want a more up-to-date system to keep up with the constant software changes and improvements that get shipped for their machine.
 
