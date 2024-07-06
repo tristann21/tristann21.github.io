@@ -13,7 +13,7 @@ Legacy4Java is an extremely passionate mod made by Wilyicaro, which reimplements
 
 ![](https://www.youtube.com/watch?v=tjbNFWbbWxU)
 
-# Reimplementing Console Features to Java
+# Reimplementing console features to Java
 Legacy4J meticulously reimplements every feature of 4J Studios' Minecraft for Java Edition. It encompasses all the interfaces from the console edition, including texture packs such as the iconic plastic texturepack! Classic skins which will soon be available, along with all the sound effects and graphics, like the gamma system, which appear strikingly identical. As well as the old terrain generation!
 
 Not to be overlooked are the tutorial worlds - each one faithfully recreated/ported into Legacy4J!
@@ -22,18 +22,18 @@ Not to be overlooked are the tutorial worlds - each one faithfully recreated/por
 
 This makes me excited to play Minecraft again! And, in my opinion, is one of the best ways to experience Minecraft portably on the Steam Deck!
 
-# Some Other Neat Stuff
-## Kyubion Studios Partnered with Wilyicaro
+# Some other neat stuff
+## Kyubion Studios partnered with Wilyicaro
 And made a modpack which builds ontop of Legacy4Java, providing one of the best ways to experience what Minecraft objectively should've been.
 [https://modrinth.com/modpack/legacy-minecraft](https://modrinth.com/modpack/legacy-minecraft)
 
-## Classic Xbox 360 Skins!!
+## Classic Xbox 360 Skins!
 You can download all of them [here!](https://cloud.disroot.org/s/gaczXMeGnT2ydqN)
 
-## Modded Spins of Legacy Edition
+## Modded spins of Legacy Edition
 Because it's Java Edition, you can add any texture packs or mods you want! People have already started making their own modpacks based off of Re-Console and Legacy4Java alike!
 [https://github.com/contrarybaton60/Williams-Console](https://github.com/contrarybaton60/Williams-Console)
-## Cool Community Screenshots I Found
+## Cool community screenshots I Found
 ![](/assets/img/thumbnail/2024-07-03_20-28-1.png)
 ![](/assets/img/thumbnail/2024-06-14_22.29.31.png)
 ![](/assets/img/thumbnail/2024-06-23_23.02.06.png)

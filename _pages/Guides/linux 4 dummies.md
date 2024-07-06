@@ -12,16 +12,16 @@ This is a brief guide for selecting the correct Linux distribution for you. It w
 
 
 
-# Things You Should Know
+# Things you should know
 ***
 
-## Figure Out How You Use Your Computer
+## Figure out how you use your computer
 
 First, you need to figure out the primary use of your computer. Is it for gaming, office/productive work, web browsing, checking emails, or perhaps a combination of these?
 
 Understanding how you utilize your computer and the roles it fulfills for you is *crucial* in selecting the appropriate Linux distribution for you.
 
-## Avoid Corporate Linux Distributions
+## Avoid corporate Linux distributions
 
 Distributions like Ubuntu and Redhat are inherently evil profit incentivized corporations which should be avoided, as they put their business first and user's last much like Microsoft.
 
@@ -29,13 +29,13 @@ Linux distributions made by a community, rather than a corporation, are always t
 
 Another important thing to note, there are community [forks](https://pcof.fi/z3md9) of these distributions such as [Linux Mint](https://www.linuxmint.com/), which are based off of Ubuntu. This doesn't mean that Linux Mint is bad, as it only uses Ubuntu as a base and has become it's own thing entirely. And, despite being based off of Ubuntu, Linux Mint is community driven!
 
-## Installing Applications From The Web is Kinda Dumb
+## Installing applications from the web is kinda dumb
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcarlschwan.eu%2F2021%2F05%2F18%2Flas-2021-and-improvements-in-the-applications-infrastructure%2Fdiscover.png&f=1&nofb=1&ipt=9ea2df864982099ddb549c7fdf2c90ee122b5b7796c6b563b8055e5501ae08c7&ipo=images)
 
 Most Linux distributions ship with a software center of some sorts, like the Google Play Store or Apple App Store. Whenever you want to install an application, you almost *never* have to search the web for a binary file and run an installer. *Always* use the app store your distribution ships with.
 
-## Sudo, What is it?
+## sudo, what is it?
 
 `sudo` is an application which lets your user run a command as a "superuser". Or, to put it simplier, with root privileges. `sudo` = "superuser do"
 
@@ -45,13 +45,13 @@ When someone or something online is telling you to execute a script or copy and 
 
 Another important thing to note; if you see a command on the internet that starts with "$", that's a Linux command. Copy it and get rid of the dollar sign for it to work.
 
-## For Gaming or Professional Use, Avoid "Slow" Distributions
+## For gaming or professional use; Avoid "slow" distributions
 
 If you're running a gaming rig or use your computer for professional work, you'll want a more up-to-date Linux distribution.
 
 Distributions such as Linux Mint use something called "LTS Releases". LTS = Long Term Support version. This means that the OS itself and the drivers they're using are very old, and don't get feature updates regularly like other Linux distributions. Rather, they only get security updates and bug fixes, with feature updates only being shipped at a fixed schedule every few years.  The benefit of this is having a super tried and true OS that's reliable, has almost zero bugs, and is very, very secure. But if you need the latest and greatest, this isn't a good option to take. People who use their hardware for professional tasks or for gaming will want a more up-to-date system to keep up with the constant software changes and improvements that get shipped for their machine.
 
-## Automatic Updates Aren't Usually a Thing
+## Automatic updates aren't usually a thing
 
 Now I'm not saying update everyday. But, it is a good idea to update once every few months.
 
@@ -73,10 +73,10 @@ Debian binaries (.deb) are Debian installers for applications, as well as Ubuntu
 
 RPM's are binaries for distributions such as Redhat, Fedora, and openSUSE.
 
-# Linux Distributions
+# Linux distributions
 ***
 
-## Best for Pretty Much Everybody
+## Best for pretty much everybody
 
 ![](https://fedoraproject.org/assets/images/atomic-desktops/kde-desktop.jpg)
 [Fedora Kinoite](https://fedoraproject.org/atomic-desktops/kinoite/) is great for pretty much every user out there. It is a stable, simple, up-to-date, very secure Linux distribution which utilizes modern Linux technologies such as Wayland, SELinux, OSTree, butterfs, and more!
@@ -92,10 +92,10 @@ I know what you're probably thinking, "that sounds really limiting!" well, it's 
 
 Personally I think it is one of the coolest and most fascinating pieces of Linux technology! But, I want to keep this guide simple. So if you want to dig a little deeper into how immutable distributions work, you can read [this amazing article here](https://www.zdnet.com/article/what-is-immutable-linux-heres-why-youd-run-an-immutable-linux-distro/).
 
-## Best for Your Grandma
+## Best for your grandma
 
-![](https://www.linuxmint.com/pictures/screenshots/faye/cinnamon.png)
-[Linux Mint Debian Edition](https://www.linuxmint.com/download_lmde.php) is for the regular user who do simple tasks and just want their computer to work. My grandma loves this OS!
+![](https://www.linuxmint.com/pictures/screenshots/virginia/cinnamon.png)
+[Linux Mint](https://linuxmint.com/) is for the regular user who do simple tasks and just want their computer to work. My grandma loves this OS!
 
 * Stable, Secure, Tested
 * Long Term Support OS
@@ -109,11 +109,13 @@ Pro tip; You should setup [Timeshift](https://itsfoss.com/backup-restore-linux-t
 
 A "regular user" in my book is someone who just wants to do simple web browsing, listen to music, edit documents, print stuff, and maybe some video conferencing. Someone who doesn't really care about "having the latest and greatest". Someone who doesn't want anything fancy, just for their machine to work.
 
-If you fit into that category, the best option will always be [Linux Mint Debian Edition](https://www.linuxmint.com/download_lmde.php).
+If you fit into that category, the best option will always be [Linux Mint](https://linuxmint.com/).
 
 It's one of the easiest to use and most stable distributions out there. It uses tested, tried and true Linux technologies. Linux Mint has always focused on putting the user experience first when it comes to their desktop and their applications with its desktop environment.
 
-## Best for Your Gaming Rig
+Gaming is also possible on this OS. Although, I recommend downloading the [latest Linux kernel](https://www.makeuseof.com/upgrade-kernel-linux-mint/) available if you plan on doing so.
+
+## Best for your gaming rig
 
 ![](https://bazzite.gg/wp-content/uploads/2024/02/kde.webp)
 [Bazzite](https://bazzite.gg/) is thee distribution you *want* if your primary use case is gaming. Built on-top of Fedora Kinoite.
@@ -132,7 +134,7 @@ However, I highly suggest checking out [protondb](https://www.protondb.com/) bef
 
 Sadly, even though Linux can run games better than on Windows, companies who implement anti-cheats into their multiplayer games will purposefully kick you out if they detect you're not on Windows. So it's best to check protondb before making the jump.
 
-## Best for The Tinkerers
+## Best for the tinkerers
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.opensourcefeed.org%2Fassets%2Fimages%2Fpreview%2Fendeavouros-preview.jpg&f=1&nofb=1&ipt=78666aba5bd4ded4a782fe16a7a84dffec2e424480ca4ddc9ab01311500524f6&ipo=images)
 [EndeavourOS](https://endeavouros.com/) is thee distribution you'd want to go for if you want true freedom, and to customize anything and everything *exactly* how you want it.
@@ -169,7 +171,7 @@ allowfullscreen></iframe>
 1. You must make sure you have nothing important on the thumb drive, as it will be reformatted to be a bootable Linux drive. (You can revert it back later) First, you need a thumb drive that doesn't have any important files on them
 1. If you have anything important on your computer that you don't want to lose, back them up ***before*** installing Linux; As installing Linux will reformat your computer's drive as well.
 
-## Making a Bootable Thumb Drive
+## Making a bootable thumb drive
 
 <iframe width="560" height="315"
 src="https://www.youtube-nocookie.com/embed/GvI0oyTsuxI"
@@ -217,7 +219,7 @@ If for whatever reason the "Perform MDK management" screen pops up, it means you
 Look up your laptop/computer/motherboard manufacturer on how to disable Secure Boot.
 
 
-# Cool Software You Should Know
+# Cool software you should know
 ***
 
 I want to quickly go over some cool pieces of software I feel like you'd find useful!
@@ -236,7 +238,7 @@ The fastest screen recorder for Linux. It lets you record, livestream, and take 
 
 Easily install and setup launchers from Epic Games, GOG, itch.io, EA, Ubisoft Connect, and more!
 
-## Heoric Games launchers
+## Heoric Games launcher
 
 [https://flathub.org/apps/com.heroicgameslauncher.hgl](https://flathub.org/apps/com.heroicgameslauncher.hgl)
 
