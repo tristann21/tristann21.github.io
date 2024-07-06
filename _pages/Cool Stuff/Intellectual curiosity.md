@@ -37,4 +37,4 @@ It's a powerful tool that can lead to innovation and success, whether in busines
 
 # I hope this post finds you well. Please take care of yourself.
 
-![](https://cdn.discordapp.com/attachments/1064006615889612861/1251756232046280755/image0.jpg?ex=66882016&is=6686ce96&hm=026ea8ca2b7b0d3e92848af98ab132fe533dbb468534712b3a6c1d92ac03759e&)
+![](https://cdn.discordapp.com/attachments/1064006615889612861/1251204609918242908/IMG_4413.jpg?ex=66896a19&is=66881899&hm=d0a4388c50a6d7e59f2e12f1c518fea0bb313634ba094088616c940f26225751&)
