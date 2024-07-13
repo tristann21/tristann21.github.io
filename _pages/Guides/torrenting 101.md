@@ -86,7 +86,7 @@ The best way to torrent games is with this amazing free and open-source applicat
 
 Hydra is a game launcher with a BitTorrent client, a repack scraper (heavily compressed torrents so they can be downloaded quicker and shared more efficiently), and a game downloader built in! No account is required to use it.
 
-When you first download Hydra, you're going to notice you're unable to download any games because there aren't any sources available. We have to add them ourselves! Luckily, a community-made website was made just for that! After you have installed Hydra launcher, you will be able to visit [hydralinks.cloud](https://hydralinks.cloud/) and click on "Install on Hydra" which will automatically add those sources, allowing you to download your games. Some of them even let you play online as well!
+When you first download Hydra, you're going to notice you're unable to download any games because there aren't any sources available. We have to add them ourselves! Luckily, a community-made website was made just for that! After you have installed Hydra launcher, you can visit [hydralinks.cloud](https://hydralinks.cloud/) and click on the "Install on Hydra" button which will automatically add those sources, allowing you to download your games. Some of them even let you play online as well!
 
 ![](/assets/img/thumbnail/hydra.png)
 
