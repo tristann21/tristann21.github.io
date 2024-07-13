@@ -62,17 +62,17 @@ After you've done all that, you can check if your IP address is being leaked by 
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.2-remove-virus.com%2Fwp-content%2Fuploads%2F2020%2F04%2F1337x.png&f=1&nofb=1&ipt=5b9b320af502861ff4cec62221e2303cf5401cbfe0a7fc6c4336841343d48d54&ipo=images)
 
-There are torrent search engines out there such as [1337x](https://1337x.to/) which is Google for torrenting.
+There are torrent search engines out there such as [1337x](https://1337x.to/) which is basically Google but for torrenting.
 
 For specific other kinds of media, such as movies or TV, [watch so much](https://watchsomuch.to/) is a movie and TV torrent search engine.
 
-For games, while I personally prefer [Hydra Launcher](https://github.com/hydralauncher/hydra), (which is later on in this guide), there are multiple torrenting sites. My favorite is [FitGirl Repacks](https://fitgirl-repacks.site/), but there are other alternatives such as [DODI Repacks](https://dodi-repacks.site/). DODI can sometimes lead you to websites that require you to turn off your AdBlock, which is why I recommend FitGirl over DODI.
+For games, while I personally prefer [Hydra Launcher](https://github.com/hydralauncher/hydra), (which is later on in this guide), there are multiple game torrenting sites. My favorite is [FitGirl Repacks](https://fitgirl-repacks.site/), but there are other alternatives such as [DODI Repacks](https://dodi-repacks.site/). DODI can sometimes lead you to websites that require you to turn off your AdBlock, which is why I recommend FitGirl over DODI.
 
-For music or other types of media, [1337x](https://1337x.to/) is your best bet.
+For music or any other types of media, [1337x](https://1337x.to/) is your best bet.
 
 However, I suggest taking a look at [spotDL](https://github.com/spotDL/spotify-downloader) which is a much easier tool to use for downloading music.
 
-Also, if you're torrenting music and need a local music player, I personally recommend [Strawberry Music Player](https://www.strawberrymusicplayer.org/) for Linux and [Clementine Music Player](https://www.clementine-player.org/) for Windows. While I prefer Strawberry, which is available for Windows and Mac, that requires a $5 subscription. [VLC](https://www.videolan.org/vlc/) is also an option!
+Also, if you're torrenting music and need a local music player, I personally recommend [Strawberry Music Player](https://www.strawberrymusicplayer.org/) for Linux and [Clementine Music Player](https://www.clementine-player.org/) for Windows. While I prefer Strawberry, which is available for Windows and Mac, that requires a $5 subscription. [VLC](https://www.videolan.org/vlc/) is also a great option!
 
 # Torrent software for specific media
 ***
@@ -86,7 +86,7 @@ The best way to torrent games is with this amazing free and open-source applicat
 
 Hydra is a game launcher with a BitTorrent client, a repack scraper (heavily compressed torrents so they can be downloaded quicker and shared more efficiently), and a game downloader built in! No account is required to use it.
 
-When you first download Hydra, you're going to notice you're unable to download any games because there aren't any sources available. We have to add them ourselves! Luckily, a community-made [resource hub](https://hydralinks.cloud/) was made just for that! After you have installed the Hydra launcher, you will be able to click on "Install on Hydra" and it'll automatically add those sources, allowing you to download your games. Some of them even let you play online as well!
+When you first download Hydra, you're going to notice you're unable to download any games because there aren't any sources available. We have to add them ourselves! Luckily, a community-made website was made just for that! After you have installed Hydra launcher, you will be able to visit [hydralinks.cloud](https://hydralinks.cloud/) and click on "Install on Hydra" which will automatically add those sources, allowing you to download your games. Some of them even let you play online as well!
 
 ![](/assets/img/thumbnail/hydra.png)
 
