@@ -37,7 +37,7 @@ I personally suggest Koodoo Reader, which you can download [here](https://github
 However, people do torrent online *libraries* rather than individual books to archive them should something happen. So, if you're a cool tech guy who has a few spare terabytes in their home server and want to contribute, you can learn more [here](https://annas-archive.org/datasets)!
 
 
-## It'd be smart to use an Adblocker
+## It'd be smart to use an AdBlocker
 
 ![](/assets/img/thumbnail/adblock.png)
 
@@ -47,12 +47,10 @@ Whether torrenting media or streaming it, an Adblocker can protect you from malw
 ***
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fu7hORAD2O44%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=3a964603e080e6775ce9e8a0898ab056367d9f5fc01171f1deab34e2f135e031&ipo=images)
 
-This is a general setup that lets you torrent and seed whatever type of file/piece of media you want to and doesn't cater to anything specific. First, we need to find a torrent file or a magnet link. Then, set up our BitTorrent client, making sure it only uses our VPN's network interface if necessary.
-
-[qbittorrent.org](https://www.qbittorrent.org/)
+This is a general setup that lets you torrent and seed whatever type of file/piece of media you want to and doesn't cater to anything specific. First, we need to find a torrent file or a magnet link. Then, set up our BitTorrent client, making sure it only uses our VPN's network interface if necessary. First, download and open [qBittorrent](https://www.qbittorrent.org/).
 
 ## Binding your VPN's network interface
-After you have downloaded and launched qBittorrent, it's time to connect to our VPN provider and bind qBittorrent to that network interface, ensuring that our IP address won't get leaked while torrenting.
+After that, it's time to connect to our VPN provider and bind qBittorrent to that network interface, ensuring that our IP address won't get leaked while torrenting.
 
 For MacOS, there's a tutorial for you [here](https://www.youtube.com/watch?v=f8QznInFaD4).
 
@@ -82,7 +80,7 @@ Also, if you're torrenting music and need a local music player, I personally rec
 **Please remember to connect to your VPN if you're in a country that has anti-piracy laws!!**
 
 ## Torrenting games
-![](https://github.com/hydralauncher/hydra/blob/main/docs/screenshot.png)
+![](https://raw.githubusercontent.com/hydralauncher/hydra/main/docs/screenshot.png)
 
 The best way to torrent games is with this amazing free and open-source application called [Hydra Launcher](https://github.com/hydralauncher/hydra).
 
@@ -106,7 +104,7 @@ Be sure to support the developers, especially indie developers, if you enjoyed t
 It's cool you want to own your media rather than stream it! There are two ways you can do this;
 
 1. Setting up qBittorrent and using [VLC](https://www.videolan.org/vlc/) or whichever media player to watch while you're downloading your piece of media
-1. Using (WebTorrent)[https://webtorrent.io/desktop/]! a free and open source BitTorrent streaming application
+1. Using [WebTorrent](https://webtorrent.io/desktop/)! a free and open source BitTorrent streaming application
 
 For qBittorrent, all you have to do is start torrenting your piece of media and then play it within VLC! The only downside compared to streaming is you cannot fast-forward if that part hasn't been downloaded yet.
 
@@ -120,9 +118,7 @@ However, if you prefer streaming, then I recommend [FMovies](https://fmovies24.t
 
 FMovies lets you stream media for free instead, without using your valuable hard drive space. However, in order to save space on their end as well, some movies and TV shows are only 720p. Not all of them, but it's something to consider.
 
-## For everything else, use 1337x.to
-
-[1337x.to](https://1337x.to/)
+For everything else, use [1337x.to](https://1337x.to/).
 
 # I hope this post finds you well. Please take care of yourself.
 
