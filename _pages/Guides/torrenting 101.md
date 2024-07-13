@@ -47,7 +47,7 @@ Whether torrenting media or streaming it, an Adblocker can protect you from malw
 ***
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fu7hORAD2O44%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=3a964603e080e6775ce9e8a0898ab056367d9f5fc01171f1deab34e2f135e031&ipo=images)
 
-This is a general setup that lets you torrent and seed whatever type of file/piece of media you want to and doesn't cater to anything specific. First, we need to find a torrent file or a magnet link. Then, set up our BitTorrent client, making sure it only uses our VPN's network interface if necessary. First, download and open [qBittorrent](https://www.qbittorrent.org/).
+This is a general setup that lets you torrent and seed whatever type of file/piece of media you want to and doesn't cater to anything specific. First, download and open [qBittorrent](https://www.qbittorrent.org/).
 
 ## Binding your VPN's network interface
 After that, it's time to connect to our VPN provider and bind qBittorrent to that network interface, ensuring that our IP address won't get leaked while torrenting.
