@@ -18,15 +18,15 @@ allowfullscreen></iframe>
 
 # Reimplementing console features to Java
 ***
-Legacy4J reimplements almost every feature of 4J Studios' Minecraft into Java Edition. It encompasses all the interfaces from the console edition, including texture packs such as the iconic plastic texture pack, as well as all the small details such as the loading screen having the same day/night position as the current world you're loading in!
+Legacy4Java reimplements almost every feature of 4J Studios' Minecraft into Java Edition. It brings back all the interfaces from the console edition, including texture packs like the iconic plastic texture pack, as well as all the small details like loading screens having the same day/night position as the current world you're loading in!
 
-Not to be overlooked are the tutorial worlds - each one faithfully recreated/ported into Legacy4J!
+Not to be overlooked are the tutorial worlds - each one faithfully recreated/ported into Legacy4Java!
 
 ![](https://cdn.modrinth.com/data/gHvKJofA/images/687118a2266f06989b2966da9a7c0e2f269fe7e4.png)
 
-Controller support is also natively implemented into Legacy4J, as well as bringing back old minecart speeds, map coordinates, limited worlds, and way more! In my view, this is the best way to play Minecraft portably on the Steam Deck.
+Controller support is also natively implemented into Legacy4Java, it also brings back the old minecart speeds, map coordinates, limited worlds, and way more! In my view, this is the best way to play Minecraft portably on the Steam Deck.
 
-# Some other neat stuff
+# Some other neat stuff I found
 ***
 ## Kyubion Studios partnered with Wilyicaro
 And made a modpack that builds on top of Legacy4Java, providing one of the best ways to experience what Minecraft objectively should've been.
@@ -56,15 +56,6 @@ When you mix Legacy4Java with [Moderner Beta](https://modrinth.com/mod/moderner-
 
 Because it's Java Edition, you can add any texture packs or mods you want! People have already started making their own really cool mod packs based on Re-Console and Legacy4Java alike, and they're very interesting spins on 4J Studios' Minecraft that I highly recommend checking out!
 [https://github.com/contrarybaton60/Williams-Console](https://github.com/contrarybaton60/Williams-Console)
-
-## Cool community screenshots I found
-![](/assets/img/thumbnail/2024-07-03_20-28-1.png)
-![](/assets/img/thumbnail/2024-06-14_22.29.31.png)
-![](/assets/img/thumbnail/2024-06-23_23.02.06.png)
-
-
-
-
 
 
 # I hope this post finds you well. Please take care of yourself.
