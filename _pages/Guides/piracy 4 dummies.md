@@ -15,7 +15,7 @@ This small guide shows you cool applications that can help you torrent media whe
 ***
 
 ## Make sure what you're downloading is legit
-If you're downloading an executable, for example, a game, it can potentially be malicious depending on where you're downloading your files from. It's better to be safe than sorry and quickly scan it with something such as [Virustotal](https://www.virustotal.com/gui/home/upload)
+If you're downloading an executable, like a game, it can potentially be malicious depending on where you're downloading your files from. It's better to be safe than sorry and do a quick scan with something such as [Virustotal](https://www.virustotal.com/gui/home/upload). Most sources in this guide are considered trustworthy though, so long as you use an adblocker!
 
 ## Avoid uTorrent
 uTorrent contained a hidden Bitcoin miner a while back. Someone was making a crap ton of money off of everyone running it and also downloaded a bunch of bloatware in the background. Because it's a closed-source program, no one had any idea. It's always best practice to use open-source alternatives to your favorite software if there are any.
@@ -30,7 +30,7 @@ The best and most trusted VPN you should use is [Mullvad VPN](https://mullvad.ne
 
 The interesting thing about books is that they're such small files because they only contain text and rarely images, so there aren't really ways to torrent them. If you wish to access free information, I suggest [Anna's Archive](https://annas-archive.org). The largest online library to ever exist. 100% free!
 
-Most books online are downloaded as a PDF. However, some of them can be downloaded as an [.epub](https://en.wikipedia.org/wiki/EPUB) If so, you will need an [ebook](https://en.wikipedia.org/wiki/Ebook) reader in order to view them. Most of these ebook readers can also view PDF files as well, so you can have all of your ebooks in one place!
+Most books online are downloaded as a PDF. However, some of them can be downloaded as a [`.epub`](https://en.wikipedia.org/wiki/EPUB). If so, you will need an [ebook](https://en.wikipedia.org/wiki/Ebook) reader in order to view them. Most of these ebook readers can also view PDF files as well, so you can have all of your ebooks in one place!
 
 I personally suggest Koodoo Reader, which you can download [here](https://github.com/koodo-reader/koodo-reader/releases/tag/v1.6.7).
 
@@ -90,11 +90,11 @@ The best way to torrent games is with this amazing free and open-source applicat
 
 Hydra is a game launcher with a BitTorrent client, a repack scraper (heavily compressed torrents so they can be downloaded quicker and shared more efficiently), and a game downloader built in! No account is required to use it.
 
-When you first download Hydra, you're going to notice you're unable to download any games because there aren't any sources available. We have to add them ourselves! Luckily, a community-made website was made just for that! After you have installed Hydra Launcher, you can visit [hydralinks.cloud](https://hydralinks.cloud/) and click on the "Install on Hydra" button which will automatically add those sources, allowing you to download your games. Some of them even let you play online as well!
+When you first download Hydra, you'll notice you're unable to download any games because there aren't any sources available. We have to add them ourselves. Luckily, a community-made website was made just for that! After you have installed Hydra Launcher, you can visit [hydralinks.cloud](https://hydralinks.cloud/) and click the "Install on Hydra" button, which will automatically add those sources to Hydra, allowing you to download your games. Some of them even let you play online as well!
 
 ![](/assets/img/thumbnail/hydra.png)
 
-When you first download a game, you're not actually downloading the game itself; you're downloading a game "repack", which we talked about earlier. The cool thing about Hydra is it'll let you easily extract the game and run the repacks installer. Most repacks also let you install game dependencies such as a DirectX library or PhysX library. It's required to download those if you don't already have them, which the repack will prompt you to do.
+When you first download a game, you're not actually downloading the game itself; you're downloading a game "repack", which we talked about earlier. The cool thing about Hydra is it'll let you easily extract the game and run the repacks installer. Most repacks also let you install game dependencies such as a `.net` or PhysX library. It's required to download those if you don't already have them, which the repack will prompt you to do.
 
 After you install the game, you can delete the repack to save space. You can also go to the game in your library now, press play, and select the executable. You have now torrented a game!
 
