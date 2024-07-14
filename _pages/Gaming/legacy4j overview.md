@@ -18,13 +18,13 @@ allowfullscreen></iframe>
 
 # Reimplementing console features to Java
 ***
-Legacy4J reimplements every feature of 4J Studios' Minecraft into Java Edition. It encompasses all the interfaces from the console edition, including texture packs such as the iconic plastic texture pack, as well as all the small details such as the loading screen having the same day/night position as the current world you're loading in has!
+Legacy4J reimplements every feature of 4J Studios' Minecraft into Java Edition. It encompasses all the interfaces from the console edition, including texture packs such as the iconic plastic texture pack, as well as all the small details such as the loading screen having the same day/night position as the current world you're loading in!
 
 Not to be overlooked are the tutorial worlds - each one faithfully recreated/ported into Legacy4J!
 
 ![](https://cdn.modrinth.com/data/gHvKJofA/images/687118a2266f06989b2966da9a7c0e2f269fe7e4.png)
 
-This makes me excited to play Minecraft again! And, in my opinion, is one of the best ways to experience Minecraft portably on the Steam Deck!
+Controller support is also natively implemented into Legacy4J, bringing back old minecart speeds, map coordinates, limited worlds, and way more! This makes me excited to play Minecraft again. And, in my opinion, is one of the best ways to experience Minecraft portably on the Steam Deck!
 
 # Some other neat stuff
 ***
