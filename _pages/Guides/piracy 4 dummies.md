@@ -94,7 +94,7 @@ When you first download Hydra, you'll notice you're unable to download any games
 
 ![](/assets/img/thumbnail/hydra.png)
 
-When you first download a game, you're not actually downloading the game itself; you're downloading a game "repack", which we talked about earlier. The cool thing about Hydra is it'll let you easily extract the game and run the repacks installer. Most repacks also let you install game dependencies such as a `.net` or PhysX library. It's required to download those if you don't already have them, which the repack will prompt you to do.
+When you first download a game, you're not actually downloading the game itself; you're downloading a game "repack", which we talked about earlier. The cool thing about Hydra is it'll let you easily extract the game and run the repacks installer. Most repacks also let you install game dependencies such as a [`.net`](https://en.wikipedia.org/wiki/.NET) or [PhysX](https://en.wikipedia.org/wiki/PhysX) library. It's required to download those if you don't already have them, which the repack will prompt you to do.
 
 After you install the game, you can delete the repack to save space. You can also go to the game in your library now, press play, and select the executable. You have now torrented a game!
 
