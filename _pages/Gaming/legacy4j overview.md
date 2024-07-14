@@ -57,7 +57,7 @@ When you mix Legacy4Java with [Moderner Beta](https://modrinth.com/mod/moderner-
 Because it's Java Edition, you can add any texture packs or mods you want! People have already started making their own really cool mod packs based on Re-Console and Legacy4Java alike, and they're very interesting spins on 4J Studios' Minecraft that I highly recommend checking out!
 [https://github.com/contrarybaton60/Williams-Console](https://github.com/contrarybaton60/Williams-Console)
 
-## Cool community screenshots I Found
+## Cool community screenshots I found
 ![](/assets/img/thumbnail/2024-07-03_20-28-1.png)
 ![](/assets/img/thumbnail/2024-06-14_22.29.31.png)
 ![](/assets/img/thumbnail/2024-06-23_23.02.06.png)
